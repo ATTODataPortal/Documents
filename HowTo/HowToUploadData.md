@@ -35,8 +35,7 @@ Under Collect you find tools to create datasets. The basic functions are (Figure
 - Import Data
 - Push Big Files
 
-<img src=".\images_upload\image1.png" style="width:6.3in;height:1.13861in" />
-
+![Fig_3_4](https://user-images.githubusercontent.com/105857944/169483059-0a04acf5-2f6d-4e30-8759-5bfef30dc787.png)
 Figure 1: Functions of the upload menu
 
 ## 2 Defining a data structure
