@@ -58,7 +58,7 @@ Please insert the data in the respective column below the grey shaded area (Figu
 Figure 3: Example of an Excel Template for the data structure in Figure 2
 
 
-## 3 Data collection]
+## 3 Data collection
 
 The Data Collection Module provides tools to create new datasets, enter metadata, upload data to the system, and import metadata structures. There are some workflows available under the “Collect” tab (see Figure 3):
 
