@@ -36,6 +36,7 @@ Under Collect you find tools to create datasets. The basic functions are (Figure
 - Push Big Files
 
 ![](https://user-images.githubusercontent.com/105857944/169483059-0a04acf5-2f6d-4e30-8759-5bfef30dc787.png)
+
 Figure 1: Functions of the upload menu
 
 ## 2 Defining a data structure
@@ -43,7 +44,8 @@ Figure 1: Functions of the upload menu
 Data structures contain all variables, which are part of the dataset to be uploaded. Prior to uploading a dataset, the data structure has to be defined in order to have a template for the upload process. Defined data structures can be used and should be used multiple times for long term data. This prevents that the same variable is defined several times with different names and units (e.g. time in seconds and in Universal time). This is essential to enable an extensive and consistent data management as well as exact search results. For this reason, the definition of data structures will be done by the data management team.
 
 
-<img src=".\images_upload\image1.png" style="width:6.3in;height:1.13861in" />
+
+![](https://github.com/ATTODataPortal/Documents/blob/95fe99f01d5c3168ca0ba65b4ea2b5fa0b440d67/images_upload/image_Upload_2.png)
 
 Figure 2: Example of a data structure
 
@@ -52,6 +54,7 @@ It is possible to create data structures for tabular (structured) data such as E
 To open this template, you have to enable macros. Macros automate frequently-used tasks. Depending on what Microsoft version you use, enable or disable macros is a bit different. Macro security settings are generally located in the Trust Center.
 
 Please insert the data in the respective column below the grey shaded area (Figure 3).
+
 
 <img src=".\images_upload\image1.png" style="width:6.3in;height:1.13861in" />
 
