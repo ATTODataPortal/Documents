@@ -70,3 +70,7 @@ The Data Collection Module provides tools to create new datasets, enter metadata
 - Import Data
 - Push Big File
 
+
+### 3.1 Create a dataset
+
+To create a new dataset, please click on the “Collect” tab and choose “Create Dataset” (Figure 1). You will be directed to an upload wizard, which leads you through the process step by step. When you hover the mouse pointer over the orange “Select” buttons in the wizard (see Figure 4) an information field about the respective option will appear.
