@@ -56,7 +56,7 @@ To open this template, you have to enable macros. Macros automate frequently-use
 Please insert the data in the respective column below the grey shaded area (Figure 3).
 
 
-<img src=".\images_upload\image1.png" style="width:6.3in;height:1.13861in" />
+![](https://github.com/ATTODataPortal/Documents/blob/d1ec06e6fe2f67b1e3bb24198d887234a6a198fb/images_upload/image_Upload_3.png)
 
 Figure 3: Example of an Excel Template for the data structure in Figure 2
 
