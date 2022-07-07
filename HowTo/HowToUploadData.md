@@ -73,11 +73,10 @@ The Data Collection Module provides tools to create new datasets, enter metadata
 Creating a new dataset with tabular data includes the following steps:
 
 1.  [Create a new dataset](#31-create-a-dataset)
-2.  [Fill out the metadata](#32-metadata)
-3.  [Define data structure](#33-upload-primary-data)
-4.  [Upload primary data](#33-upload-primary-data)
-5.  [Add links to other datasets and publications (optional)](#36-add-attachments-to-datasets)
-6.  [Add attachments (optional)](#36-add-attachments-to-datasets)
+2.  [Fill out the metadata](#32-fill-out-the-metadata)
+3.  [Upload primary data](#33-upload-primary-data)
+4.  [Add links to other datasets and publications (optional)](#36-add-attachments-to-datasets)
+5.  [Add attachments (optional)](#36-add-attachments-to-datasets)
 
 
 ### 3.1 Create a dataset
