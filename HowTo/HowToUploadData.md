@@ -103,3 +103,32 @@ In case you want to upload a new dataset to an existing data structure and compr
 ![](https://github.com/ATTODataPortal/Documents/blob/4cf133808ed0268b485c39ec934623c1d4503641/images_upload/image_Upload_5.png)
 
 Figure 5: Overview of metadata form
+
+The metadata structure contains four main sections:
+
+- Dataset Level Metadata: Basic information on the data like title, abstract, owner, methods etc.
+- Environmental Level Metadata: Detailed georeferenced information on the location, where the data were collected.
+- Published In: DOI if dataset is already published in a data repository or in context of a scientific publication.
+- Project: Information of the project, in which context the dataset was collected, including funding for the project.
+
+Some fields are a free-text field, which have to be filled in by the data creator. Others have, drop-down menus and an autocomplete function that helps to fill in the form swiftly.
+
+Note: Completely filled metadata are essential for finding datasets within the ATTO data portal and allows an easy publishing process through the Max Planck Digital Library (MPDL).
+
+Table 1 in the Appendix gives an overview and explanation of each variable of the metadata form. You also get this information by hovering the mouse pointer over the respective variable name left side of the text boxes and the green header of the subsections. All fields marked with a red asterisks * are mandatory for a valid metadata form.
+
+After you complete the form, you can validate (see Figure 6) the entries and the system will give you further information in case any entries are wrong or whether more entries are required.
+
+
+![](https://github.com/ATTODataPortal/Documents/blob/ea686fcf7c46edb7022a6be3b4071678f0db6214/images_upload/image_Upload_6.png)
+
+Figure 6: Bottom of Metadata form with "Validate" and “Save” button
+
+When you completed and validated the metadata form, please click “Save” in order to finish the creation of the dataset. If there are metadata entries missing, the window shown in Figure 7 will pop up. In this case it is recommended that you click on “Cancel” to fill in the missing. However, while clicking on the “OK” button, the metadata form will be saved and you have the possibility to edit the form at a later point of time – even after primary data are already uploaded.
+
+Note: After a dataset is published with an assigned DOI, do not change any part of the dataset. Please contact the data management team (attodbm@bgc-jena.mpg.de) for help.
+
+
+![](https://github.com/ATTODataPortal/Documents/blob/992edd46cf0c43b59363d0d9b9c3540b0e03acd2/images_upload/image_Upload_7.png)
+
+Figure 7: Warning if metadata information is missing.
