@@ -16,7 +16,7 @@ Contact ATTO Data Management Team: <attodbm@mpi-mail.mpg.de>
 [3. Data collection](#3-data-collection)
 
 - [3.1 Create a dataset](#31-create-a-dataset)
-- [3.2 Metadata](#32-metadata)
+- [3.2 Metadata](#32-fill-out-metadata)
 - [3.3 Upload primary data](#33-upload-primary-data)
 - [3.4 Import primary data](#34-mport-primary-data)
 - [3.4 Push big file](#34-push-big-file)
@@ -73,7 +73,7 @@ The Data Collection Module provides tools to create new datasets, enter metadata
 Creating a new dataset with tabular data includes the following steps:
 
 1.  [Create a new dataset](#31-create-a-dataset)
-2.  [Fill out the metadata](#32-fill-out-the-metadata)
+2.  [Fill out metadata](#32-fill-out-metadata)
 3.  [Upload primary data](#33-upload-primary-data)
 4.  [Add links to other datasets and publications (optional)](#36-add-attachments-to-datasets)
 5.  [Add attachments (optional)](#36-add-attachments-to-datasets)
@@ -93,7 +93,7 @@ Figure 4: Overview of Data Collection Wizard
 
 In order to continue the data creation process please click the “Next” button. You will be directed to the metadata form, which will be explained in the following section.
 
-### 3.2 Fill out the metadata
+### 3.2 Fill out metadata
 
 The following section introduces the metadata schema for the ATTO consortium and gives an over-view of the individual information required.
 In case you want to upload a new dataset to an existing data structure and comprehansive metadata information have thus already been uploaded previously, the respective metadata sheme can be requested from the data management team. You will receive a .xml file, which can be imported via the "Import" button (see Figure 5). You then have to change the appropriate information for your new dataset that differ from previous ones, such as collection dates, layers etc.
