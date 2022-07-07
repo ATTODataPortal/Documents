@@ -35,7 +35,7 @@ Under Collect you find tools to create datasets. The basic functions are (Figure
 - Import Data
 - Push Big Files
 
-![](https://user-images.githubusercontent.com/105857944/169483059-0a04acf5-2f6d-4e30-8759-5bfef30dc787.png)
+![](https://github.com/ATTODataPortal/Documents/blob/9d49bebc0f08b7326011e42231c4d93f9115fc41/images_upload/image_Upload_1.png)
 
 Figure 1: Functions of the upload menu
 
