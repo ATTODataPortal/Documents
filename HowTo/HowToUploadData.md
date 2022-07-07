@@ -91,3 +91,15 @@ In the next step you can choose whether to upload a new tabular data or a file. 
 ![](https://github.com/ATTODataPortal/Documents/blob/747a480ae8070b162e6c014539f101972b7edde7/images_upload/image_Upload_4.png)
 
 Figure 4: Overview of Data Collection Wizard
+
+In order to continue the data creation process please click the “Next” button. You will be directed to the metadata form, which will be explained in the following section.
+
+### 3.2 Fill out the metadata
+
+The following section introduces the metadata schema for the ATTO consortium and gives an over-view of the individual information required.
+In case you want to upload a new dataset to an existing data structure and comprehansive metadata information have thus already been uploaded previously, the respective metadata sheme can be requested from the data management team. You will receive a .xml file, which can be imported via the "Import" button (see Figure 5). You then have to change the appropriate information for your new dataset that differ from previous ones, such as collection dates, layers etc.
+
+
+![](https://github.com/ATTODataPortal/Documents/blob/4cf133808ed0268b485c39ec934623c1d4503641/images_upload/image_Upload_5.png)
+
+Figure 5: Overview of metadata form
