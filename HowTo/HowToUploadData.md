@@ -125,7 +125,7 @@ Figure 6: Bottom of Metadata form with "Validate" and “Save” button
 
 When you completed and validated the metadata form, please click “Save” in order to finish the creation of the dataset. If there are metadata entries missing, the window shown in Figure 7 will pop up. In this case it is recommended that you click on “Cancel” to fill in the missing. However, while clicking on the “OK” button, the metadata form will be saved and you have the possibility to edit the form at a later point of time – even after primary data are already uploaded.
 
-*Note*: After a dataset is published with an assigned DOI, do not change any part of the dataset. Please contact the data management team (attodbm@bgc-jena.mpg.de) for help.
+*Note*: After a dataset is published with an assigned DOI, do not change any part of the dataset. Please contact the data management team (attodbm@mpi-mail.mpg.de) for help.
 
 
 ![](https://github.com/ATTODataPortal/Documents/blob/992edd46cf0c43b59363d0d9b9c3540b0e03acd2/images_upload/image_Upload_7.png)
