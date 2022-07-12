@@ -134,4 +134,14 @@ Figure 7: Warning if metadata information is missing.
 
 ### 3.3 Upload primary data
 
-After the metadata form is saved, you will be automatically directed to the top of the page where you will find a link to the Upload Data Wizard (see Figure 8). If you want to upload your data as tabular data (.xlsm, .txt, .csv) now, please click on the link. The term "Tabular data" is used for all datasets where the internal structure of the data is "known" to the system. For example, in a data table the header, which defines the columns (i.e. variables) is the structure of the data. Before uploading/importing data to the system the data structure needs to be created by the data management team (see also paragraph 2. Defining a data structure).
+After the metadata form is saved, you will be automatically directed to the top of the page where you will find a link to the Primary Data and thus the Data Upload Wizard (see Figure 8 & 9). If you want to upload your data as tabular data (.xlsm, .txt, .csv) now, please click on the link. The term "Tabular data" is used for all datasets where the internal structure of the data is "known" to the system. For example, in a data table the header, which defines the columns (i.e. variables) is the structure of the data. Before uploading/importing data to the system the data structure needs to be created by the data management team (see also paragraph 2 - Defining a data structure).
+
+
+![](https://github.com/ATTODataPortal/Documents/blob/3fa25a00e84451d35694b17166d6a9830d5932b7/images_upload/image_upload_8.png)
+
+Figure 8: Redirection to the link of the Primary Data
+
+
+![](https://github.com/ATTODataPortal/Documents/blob/3fa25a00e84451d35694b17166d6a9830d5932b7/images_upload/image_upload_9.png)
+
+Figure 9: Data Upload Wizard
