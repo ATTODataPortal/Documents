@@ -145,3 +145,11 @@ Figure 8: Redirection to the link of the Primary Data
 ![](https://github.com/ATTODataPortal/Documents/blob/3fa25a00e84451d35694b17166d6a9830d5932b7/images_upload/image_upload_9.png)
 
 Figure 9: Data Upload Wizard
+
+
+First, please select an existing file containing your data. You can either select a file from your local computer or a file that has been uploaded to the server prior to starting the Data Upload Wizard (see Figure 10). The second option is designed for files larger than 4 MB that may take several minutes to transfer. The wizard supports file formats of Microsoft Excel (.xlsm) or ASCII (.txt, .csv). Once a file was successfully selected, click the "Next" button and proceed to the next step.
+
+
+![](https://github.com/ATTODataPortal/Documents/blob/8d8ee8546c325562dd98deb4676b98b804a9cd56/images_upload/image_upload_10.png)
+
+Figure 10: Data Upload Wizard - file selection
