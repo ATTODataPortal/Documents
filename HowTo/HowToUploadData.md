@@ -142,6 +142,7 @@ After the metadata form is saved, you will be automatically directed to the top 
 Figure 8: Redirection to the link of the Primary Data
 
 
+
 ![](https://github.com/ATTODataPortal/Documents/blob/3fa25a00e84451d35694b17166d6a9830d5932b7/images_upload/image_upload_9.png)
 
 Figure 9: Data Upload Wizard
@@ -153,3 +154,32 @@ First, please select an existing file containing your data. You can either selec
 ![](https://github.com/ATTODataPortal/Documents/blob/8d8ee8546c325562dd98deb4676b98b804a9cd56/images_upload/image_upload_10.png)
 
 Figure 10: Data Upload Wizard - file selection
+
+For all ASCII files you need to provide information on the formatting and file structure (Figure 11).
+
+- Separator: Please choose which separator is used to separate data values from each other in the ASCII file.
+- Decimal: Please choose the punctuation, which is used for decimal values. This is depending on your language settings of your computer.
+- TextMarker: Please choose how text is marked in your data file.
+- Orientation: Please choose if your data is oriented column-wise or row-wise.
+- Offset: Define whether your dataset contain empty rows or columns on top or to the left before the header and the actual data values start.
+- Variables: Please define the row/column where the header starts. Usually, datasets contain of a header, which defines variable names, types etc.
+- Data: Please specify the row/column where the primary data starts.
+
+More information can also be found in the online Help via “Data Collection”.
+
+![](https://github.com/ATTODataPortal/Documents/blob/2617502546188b9e330f8b817063065a9a046759/images_upload/image_upload_11.png)
+
+Figure 11: Data Upload Wizard - file information
+
+
+Next, the created data set must be specified once again, to which the data to be uploaded should be assigned.
+
+![](https://github.com/ATTODataPortal/Documents/blob/2617502546188b9e330f8b817063065a9a046759/images_upload/image_upload_12.png)
+
+Figure 12: Data Upload Wizard - dataset information
+
+After defining the required information, click “Next” and you are asked to validate your dataset (Figure 13). In this step, the system checks whether the header information and the number of variables matches with the predefined data structure. If this is the case, you will see the green stroke “Validated!!” on the top of the page. Please click “Next” to get a summary of your created dataset and to finalize the upload process by clicking “Finish”.
+
+![](https://github.com/ATTODataPortal/Documents/blob/2617502546188b9e330f8b817063065a9a046759/images_upload/image_upload_13.png)
+
+Figure 13: Data Upload Wizard - validation
