@@ -20,10 +20,10 @@ Contact ATTO Data Management Team: <attodbm@mpi-mail.mpg.de>
 - [3.2 Metadata](#32-fill-out-metadata)
 - [3.3 Upload primary data](#33-upload-primary-data)
 - [3.4 Import primary data](#34-mport-primary-data)
-- [3.5 Push big file](#34-push-big-file)
-- [3.6 Add data or update dataset](#35-add-data-or-update-dataset)
-- [3.7 Add attachments to datasets](#36-add-attachments-to-datasets)
-- [3.8 Copy Metadata of an existing dataset](#37-copy-Metadata-of-an-existing-dataset)
+- [3.5 Push big file](#35-push-big-file)
+- [3.6 Add data or update dataset](#36-add-data-or-update-dataset)
+- [3.7 Add attachments to datasets](#37-add-attachments-to-datasets)
+- [3.8 Copy Metadata of an existing dataset](#38-copy-Metadata-of-an-existing-dataset)
 
 [Appendix](#appendix)
 
