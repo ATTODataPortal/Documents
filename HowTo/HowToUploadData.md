@@ -35,9 +35,8 @@ Under Collect you find tools to create datasets. The basic functions are (Figure
 - Import Data
 - Push Big Files
 
-![](https://github.com/ATTODataPortal/Documents/blob/9d49bebc0f08b7326011e42231c4d93f9115fc41/images_upload/image_Upload_1.png)
+![](https://github.com/ATTODataPortal/Documents/blob/9d49bebc0f08b7326011e42231c4d93f9115fc41/images_upload/image_Upload_1.png)*Figure 1: Functions of the upload menu*
 
-Figure 1: Functions of the upload menu
 
 ## 2 Defining a data structure
 
@@ -45,9 +44,7 @@ Data structures contain all variables, which are part of the dataset to be uploa
 
 
 
-![](https://github.com/ATTODataPortal/Documents/blob/95fe99f01d5c3168ca0ba65b4ea2b5fa0b440d67/images_upload/image_Upload_2.png)
-
-Figure 2: Example of a data structure
+![](https://github.com/ATTODataPortal/Documents/blob/95fe99f01d5c3168ca0ba65b4ea2b5fa0b440d67/images_upload/image_Upload_2.png)*Figure 2: Example of a data structure*
 
 
 It is possible to create data structures for tabular (structured) data such as Excel tables, CSV-Files, etc. and for files such as images, videos, etc. Please send a request for a data structure including the header of your dataset with a clear description of each variable to the data management team (<attodbm@mpi-mail.mpg.de>). The respective data structure will be created according to the example in Figure 1. The data management team will send you an Excel Template similar to Figure 2, which can be filled with the respective data and used for their upload.
@@ -56,9 +53,7 @@ To open this template, you have to enable macros. Macros automate frequently-use
 Please insert the data in the respective column below the grey shaded area (Figure 3).
 
 
-![](https://github.com/ATTODataPortal/Documents/blob/d1ec06e6fe2f67b1e3bb24198d887234a6a198fb/images_upload/image_Upload_3.png)
-
-Figure 3: Example of an Excel Template for the data structure in Figure 2
+![](https://github.com/ATTODataPortal/Documents/blob/d1ec06e6fe2f67b1e3bb24198d887234a6a198fb/images_upload/image_Upload_3.png)*Figure 3: Example of an Excel Template for the data structure in Figure 2*
 
 
 ## 3 Data collection
@@ -87,9 +82,8 @@ If you want to upload a new dataset, please select “New Dataset” in the “D
 In the next step you can choose whether to upload a new tabular data or a file. In both cases a new data structure will be created. In case you have been assigned a data structure by the data management team, please use the option "Existing tabular data structure" or "Existing file data structure" and select the appropriate data structure from the drop-down menu. The next step is to define the metadata structure. In our case there is only one predefined one called "ATTO".
 
 
-![](https://github.com/ATTODataPortal/Documents/blob/747a480ae8070b162e6c014539f101972b7edde7/images_upload/image_Upload_4.png)
+![](https://github.com/ATTODataPortal/Documents/blob/747a480ae8070b162e6c014539f101972b7edde7/images_upload/image_Upload_4.png)*Figure 4: Overview of Data Collection Wizard*
 
-Figure 4: Overview of Data Collection Wizard
 
 In order to continue the data creation process please click the “Next” button. You will be directed to the metadata form, which will be explained in the following section.
 
@@ -99,9 +93,7 @@ The following section introduces the metadata schema for the ATTO consortium and
 In case you want to upload a new dataset to an existing data structure and comprehansive metadata information have thus already been uploaded previously, the respective metadata sheme can be requested from the data management team. You will receive a .xml file, which can be imported via the "Import" button (see Figure 5). You then have to change the appropriate information for your new dataset that differ from previous ones, such as collection dates, layers etc.
 
 
-![](https://github.com/ATTODataPortal/Documents/blob/4cf133808ed0268b485c39ec934623c1d4503641/images_upload/image_Upload_5.png)
-
-Figure 5: Overview of metadata form
+![](https://github.com/ATTODataPortal/Documents/blob/4cf133808ed0268b485c39ec934623c1d4503641/images_upload/image_Upload_5.png)*Figure 5: Overview of metadata form*
 
 The metadata structure contains four main sections:
 
@@ -119,41 +111,34 @@ Table 1 in the Appendix gives an overview and explanation of each variable of th
 After you complete the form, you can validate (see Figure 6) the entries and the system will give you further information in case any entries are wrong or whether more entries are required.
 
 
-![](https://github.com/ATTODataPortal/Documents/blob/ea686fcf7c46edb7022a6be3b4071678f0db6214/images_upload/image_Upload_6.png)
+![](https://github.com/ATTODataPortal/Documents/blob/ea686fcf7c46edb7022a6be3b4071678f0db6214/images_upload/image_Upload_6.png)*Figure 6: Bottom of Metadata form with "Validate" and “Save” button*
 
-Figure 6: Bottom of Metadata form with "Validate" and “Save” button
 
 When you completed and validated the metadata form, please click “Save” in order to finish the creation of the dataset. If there are metadata entries missing, the window shown in Figure 7 will pop up. In this case it is recommended that you click on “Cancel” to fill in the missing. However, while clicking on the “OK” button, the metadata form will be saved and you have the possibility to edit the form at a later point of time – even after primary data are already uploaded.
 
 *Note*: After a dataset is published with an assigned DOI, do not change any part of the dataset. Please contact the data management team (attodbm@mpi-mail.mpg.de) for help.
 
 
-![](https://github.com/ATTODataPortal/Documents/blob/992edd46cf0c43b59363d0d9b9c3540b0e03acd2/images_upload/image_Upload_7.png)
+![](https://github.com/ATTODataPortal/Documents/blob/992edd46cf0c43b59363d0d9b9c3540b0e03acd2/images_upload/image_Upload_7.png)*Figure 7: Warning if metadata information is missing*
 
-Figure 7: Warning if metadata information is missing.
 
 ### 3.3 Upload primary data
 
 After the metadata form is saved, you will be automatically directed to the top of the page where you will find a link to the Primary Data and thus the Data Upload Wizard (see Figure 8 & 9). If you want to upload your data as tabular data (.xlsm, .txt, .csv) now, please click on the link. The term "Tabular data" is used for all datasets where the internal structure of the data is "known" to the system. For example, in a data table the header, which defines the columns (i.e. variables) is the structure of the data. Before uploading/importing data to the system the data structure needs to be created by the data management team (see also paragraph 2 - Defining a data structure).
 
 
-![](https://github.com/ATTODataPortal/Documents/blob/3fa25a00e84451d35694b17166d6a9830d5932b7/images_upload/image_upload_8.png)
-
-Figure 8: Redirection to the link of the Primary Data
+![](https://github.com/ATTODataPortal/Documents/blob/3fa25a00e84451d35694b17166d6a9830d5932b7/images_upload/image_upload_8.png)*Figure 8: Redirection to the link of the Primary Data*
 
 
 
-![](https://github.com/ATTODataPortal/Documents/blob/3fa25a00e84451d35694b17166d6a9830d5932b7/images_upload/image_upload_9.png)
-
-Figure 9: Data Upload Wizard
+![](https://github.com/ATTODataPortal/Documents/blob/3fa25a00e84451d35694b17166d6a9830d5932b7/images_upload/image_upload_9.png)*Figure 9: Data Upload Wizard*
 
 
 First, please select an existing file containing your data. You can either select a file from your local computer or a file that has been uploaded to the server prior to starting the Data Upload Wizard (see Figure 10). The second option is designed for files larger than 4 MB that may take several minutes to transfer. The wizard supports file formats of Microsoft Excel (.xlsm) or ASCII (.txt, .csv). Once a file was successfully selected, click the "Next" button and proceed to the next step.
 
 
-![](https://github.com/ATTODataPortal/Documents/blob/8d8ee8546c325562dd98deb4676b98b804a9cd56/images_upload/image_upload_10.png)
+![](https://github.com/ATTODataPortal/Documents/blob/8d8ee8546c325562dd98deb4676b98b804a9cd56/images_upload/image_upload_10.png)*Figure 10: Data Upload Wizard - file selection*
 
-Figure 10: Data Upload Wizard - file selection
 
 For all ASCII files you need to provide information on the formatting and file structure (Figure 11).
 
@@ -167,19 +152,15 @@ For all ASCII files you need to provide information on the formatting and file s
 
 More information can also be found in the online Help via “Data Collection”.
 
-![](https://github.com/ATTODataPortal/Documents/blob/2617502546188b9e330f8b817063065a9a046759/images_upload/image_upload_11.png)
+![](https://github.com/ATTODataPortal/Documents/blob/2617502546188b9e330f8b817063065a9a046759/images_upload/image_upload_11.png)*Figure 11: Data Upload Wizard - file information*
 
-Figure 11: Data Upload Wizard - file information
 
 
 Next, the created data set must be specified once again, to which the data to be uploaded should be assigned.
 
-![](https://github.com/ATTODataPortal/Documents/blob/2617502546188b9e330f8b817063065a9a046759/images_upload/image_upload_12.png)
+![](https://github.com/ATTODataPortal/Documents/blob/2617502546188b9e330f8b817063065a9a046759/images_upload/image_upload_12.png)*Figure 12: Data Upload Wizard - dataset information*
 
-Figure 12: Data Upload Wizard - dataset information
 
 After defining the required information, click “Next” and you are asked to validate your dataset (Figure 13). In this step, the system checks whether the header information and the number of variables matches with the predefined data structure. If this is the case, you will see the green stroke “Validated!!” on the top of the page. Please click “Next” to get a summary of your created dataset and to finalize the upload process by clicking “Finish”.
 
-![](https://github.com/ATTODataPortal/Documents/blob/2617502546188b9e330f8b817063065a9a046759/images_upload/image_upload_13.png)
-
-Figure 13: Data Upload Wizard - validation
+![](https://github.com/ATTODataPortal/Documents/blob/2617502546188b9e330f8b817063065a9a046759/images_upload/image_upload_13.png)*Figure 13: Data Upload Wizard - Validation*
