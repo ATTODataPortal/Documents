@@ -174,3 +174,6 @@ In case you want to upload your primary data at a later point of time and assign
 
 In case you want to upload a big file, you can use the "Push Big File" option via the "Collect" tab. Datasets with the following formats are supported: .avi, .bmp, .csv, .dbf, .doc, .docx, .gif, .jpg, .jpeg, .mp3, .mp4, .pdf, .png, .shp, .shx, .tif, .txt, .xls, .xlsm, .xlsx, .xsd, .zip.
 
+![](https://github.com/ATTODataPortal/Documents/blob/2cbd5fed32ddd6942e83b9ea39ca2421981502e3/images_upload/push_big_file_1.png)*Figure 17: Push Big File*
+
+Each registered user can upload files to a personal folder where files are stored temporary. An overview of these files is given on the left side of the Push Big File Wizard (see Figure 17). You can delete these files by clicking on the small bin next to the file name. For uploading a dataset, please click on the “Select” button to select a file from your local computer and then click “Push” .
