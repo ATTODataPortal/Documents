@@ -20,10 +20,10 @@ Contact ATTO Data Management Team: <attodbm@mpi-mail.mpg.de>
 - [3.2 Metadata](#32-fill-out-metadata)
 - [3.3 Upload primary data](#33-upload-primary-data)
 - [3.4 Import primary data](#34-mport-primary-data)
-- [3.4 Push big file](#34-push-big-file)
-- [3.5 Add data or update dataset](#35-add-data-or-update-dataset)
-- [3.6 Add attachments to datasets](#36-add-attachments-to-datasets)
-- [3.7 Copy Metadata of an existing dataset](#37-copy-Metadata-of-an-existing-dataset)
+- [3.5 Push big file](#34-push-big-file)
+- [3.6 Add data or update dataset](#35-add-data-or-update-dataset)
+- [3.7 Add attachments to datasets](#36-add-attachments-to-datasets)
+- [3.8 Copy Metadata of an existing dataset](#37-copy-Metadata-of-an-existing-dataset)
 
 [Appendix](#appendix)
 
@@ -170,7 +170,7 @@ In case you want to upload your primary data at a later point of time and assign
 
 ### 3.4 Import primary data
 
-Using the Import Data Wizard is another possibility to create a dataset including metadata in one workflow. Please click "Import Data" via the “Collect” tab (Figure 3). After you selected a file from your local computer or a prior uploaded file, you have to choose the "ATTO" metadata schema. The title is by default the name of your file, but can be changed in the textbox "Title" (Figure 14).
+Using the Import Data Wizard is another possibility to create a dataset including metadata in one workflow. Please click "Import Data" via the “Collect” tab (Figure 1). After you selected a file from your local computer or a prior uploaded file, you have to choose the "ATTO" metadata schema. The title is by default the name of your file, but can be changed in the textbox "Title" (Figure 14).
 
 ![](https://github.com/ATTODataPortal/Documents/blob/29f2f19fd71c170a0358e3fbcd9c0724d7a351ae/images_upload/import_data_1.png)*Figure 13: Import Data Wizard*
 
@@ -190,7 +190,7 @@ With a click on the "Next" button you can proceed to a summary of your upload pr
 ![](https://github.com/ATTODataPortal/Documents/blob/29f2f19fd71c170a0358e3fbcd9c0724d7a351ae/images_upload/import_data_4.png)*Figure 16: Verification process in the Import Data Wizard*
 
 
-### 3.4 Push big file
+### 3.5 Push big file
 
 In case you want to upload a big file, you can use the "Push Big File" option via the "Collect" tab. Datasets with the following formats are supported: .avi, .bmp, .csv, .dbf, .doc, .docx, .gif, .jpg, .jpeg, .mp3, .mp4, .pdf, .png, .shp, .shx, .tif, .txt, .xls, .xlsm, .xlsx, .xsd, .zip.
 
@@ -199,5 +199,20 @@ In case you want to upload a big file, you can use the "Push Big File" option vi
 Each registered user can upload files to a personal folder where files are stored temporary. An overview of these files is given on the left side of the Push Big File Wizard (see Figure 17). You can delete these files by clicking on the small bin next to the file name. For uploading a dataset, please click on the “Select” button to select a file from your local computer and then click “Push” .
 
 
-### 3.5 Add data or update dataset
+### 3.6 Add data or update dataset
 
+The system allows to add data to an already existing dataset or to update datasets in case the processing standard was updated. The first case might mainly apply for continuous measurements of time series like temperature profiles or radiation etc. and allows extending the already uploaded time series with the fresh data.
+
+Please click on the "Collect2 tab in the main menu (see Figure 1) and choose "Upload Data". In the Upload Data Wizard you first have to choose whether your data are tabular data or a file.
+
+![](https://github.com/ATTODataPortal/Documents/blob/b89a6644b8f2850e6c3ce984b456b09b9604c58d/images_upload/update_data_1.png)*Figure 18: Upload Data Wizard*
+
+The file selection is same as described in section 3.3 Upload primary data. After you selected your data/file either from your local computer (or from the server in case it was uploaded before) the file information have to be defined (see section 3.3 Figure 11). In the next step, please specify the dataset to which the uploaded data should be added. A list of all datasets (dataset-ID and title) is shown in a dropdown menu (Figure 19).
+
+![](https://github.com/ATTODataPortal/Documents/blob/b89a6644b8f2850e6c3ce984b456b09b9604c58d/images_upload/update_data_2.png)*Figure 19: Upload Data Wizard - specify dataset*
+
+Click next and define the primary keys of the dataset to be uploaded. Please check the selected variables before clicking next. In case all primary keys are defined accordingly, they are displayed in green in the upper right corner of the webpage. 
+
+Click "Next" and you are asked to validate your dataset. In this step, the system checks whether the header information and the number of variables matches with the predefined data structure. If this is the case, you will see the green stroke "Validated!!" on the top of the page. Please click "Next" to get a summary of your created dataset and to finalize the upload process by clicking "Finish".
+
+*Note:* A dataset ID and a dataset version ID are assigned to the uploaded datasets. During each change of the metadata and/or the primary data, the dataset version ID is updated while the dataset ID is always the same. However, all dataset versions are stored on the server. Furthermore, while downloading data, the dataset version ID is taken into account. Please consider the change of datasets before publishing the dataset with assigned DOI since the link to the DOI has to be updated as well after this process. Further information regarding data publication can be found in a separate document.
