@@ -170,6 +170,26 @@ In case you want to upload your primary data at a later point of time and assign
 
 ### 3.4 Import primary data
 
+Using the Import Data Wizard is another possibility to create a dataset including metadata in one workflow. Please click "Import Data" via the “Collect” tab (Figure 3). After you selected a file from your local computer or a prior uploaded file, you have to choose the "ATTO" metadata schema. The title is by default the name of your file, but can be changed in the textbox "Title" (Figure 14).
+
+![](https://github.com/ATTODataPortal/Documents/blob/29f2f19fd71c170a0358e3fbcd9c0724d7a351ae/images_upload/import_data_1.png)*Figure 13: Import Data Wizard*
+
+![](https://github.com/ATTODataPortal/Documents/blob/29f2f19fd71c170a0358e3fbcd9c0724d7a351ae/images_upload/import_data_2.png)*Figure 14: Define metadata schema & title*
+
+You will be directed to a table, which represents your selected file. Here you can define which parts of the file contain the variables/header and which part are the primary data. Please select the row with variables/header and click the "Header" button (see Figure 15). The selected part will be highlighted in red. In order to specify the data, select multiple rows which contain the primary data and click the "Data" button (see Figure 15). If you want to skip some parts of your data you can just mark the rows above and below the respective parts. With the "Expand Selection" button you can expand the last selection of your data to the last row of the file. This is  recommended for large datasets
+
+![](https://github.com/ATTODataPortal/Documents/blob/29f2f19fd71c170a0358e3fbcd9c0724d7a351ae/images_upload/import_data_3.png)*Figure 15: Select areas in the Import Data Wizard*
+
+
+You also have the option to import data from another worksheet of your file with the "Change Worksheet" button on the right side. Please note that only data from one sheet can be uploaded at a time.
+
+When you finished the selection, click the "Next" button to proceed to the verification step, where you have to define the units and datatypes of the variables in the dataset you want to upload (Figure 16). A table with a dropdown menu shows you the variables in the dataset and provides you suggestions for the respective definition of units and datatypes based on other already uploaded datasets. While choosing one of the suggestions, the respective unit and datatype are automatically filled in. You also can define these attributes by yourself by entering free text. With the "Validate" button (see Figure 16) you can verify whether the selected datatypes are suitable for the dataset or if you have to adjust a particular specification.
+
+With a click on the "Next" button you can proceed to a summary of your upload process, which provides an overview of your dataset. Please click the "Finish" button and the data structure and the dataset will be created. In the next step, you will be redirected to the new dataset and you can fill in the metadata form as described in section 3.2 Metadata.
+
+![](https://github.com/ATTODataPortal/Documents/blob/29f2f19fd71c170a0358e3fbcd9c0724d7a351ae/images_upload/import_data_4.png)*Figure 16: Verification process in the Import Data Wizard*
+
+
 ### 3.4 Push big file
 
 In case you want to upload a big file, you can use the "Push Big File" option via the "Collect" tab. Datasets with the following formats are supported: .avi, .bmp, .csv, .dbf, .doc, .docx, .gif, .jpg, .jpeg, .mp3, .mp4, .pdf, .png, .shp, .shx, .tif, .txt, .xls, .xlsm, .xlsx, .xsd, .zip.
