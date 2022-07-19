@@ -156,7 +156,6 @@ More information can also be found in the online Help via “Data Collection”.
 ![](https://github.com/ATTODataPortal/Documents/blob/2617502546188b9e330f8b817063065a9a046759/images_upload/image_upload_11.png)*Figure 11: Data Upload Wizard - file information*
 
 
-
 Next, the created data set must be specified once again, to which the data to be uploaded should be assigned.
 
 ![](https://github.com/ATTODataPortal/Documents/blob/2617502546188b9e330f8b817063065a9a046759/images_upload/image_upload_12.png)*Figure 12: Data Upload Wizard - dataset information*
@@ -165,3 +164,5 @@ Next, the created data set must be specified once again, to which the data to be
 After defining the required information, click “Next” and you are asked to validate your dataset (Figure 13). In this step, the system checks whether the header information and the number of variables matches with the predefined data structure. If this is the case, you will see the green stroke “Validated!!” on the top of the page. Please click “Next” to get a summary of your created dataset and to finalize the upload process by clicking “Finish”.
 
 ![](https://github.com/ATTODataPortal/Documents/blob/2617502546188b9e330f8b817063065a9a046759/images_upload/image_upload_13.png)*Figure 13: Data Upload Wizard - Validation*
+
+In case you want to upload your primary data at a later point of time and assign them to your prior defined metadata, you can use the “Upload” option via the “Collect” tab (Figure 1). Here you can chose as well, whether you want to upload tabular data or files like images or other data associated to your dataset (.avi, .bmp, .csv, .dbf, .doc, .docx, .gif, .jpg, .jpeg, .mp3, .mp4, .pdf, .png, .shp, .shx, .tif, .txt, .xls, .xlsm, .xlsx, .xsd, .zip). The uploading process is similar to the application of the Upload Data Wizard described above.
