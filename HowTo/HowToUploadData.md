@@ -74,8 +74,8 @@ Creating a new dataset with tabular data includes the following steps:
 1.  [Create a new dataset](#31-create-a-dataset)
 2.  [Fill out metadata](#32-fill-out-metadata)
 3.  [Upload primary data](#33-upload-primary-data)
-4.  [Add links to other datasets and publications (optional)](#36-add-attachments-to-datasets)
-5.  [Add attachments (optional)](#36-add-attachments-to-datasets)
+4.  [Add data or update dataset](#36-add-data-or-update-dataset)
+5.  [Add attachments to datasets](#37-add-attachments-to-datasets)
 <br>
 
 ### 3.1 Create a dataset
