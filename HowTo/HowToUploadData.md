@@ -113,7 +113,7 @@ The metadata structure contains four main sections:
 Some fields are a free-text field, which have to be filled in by the data creator. Others have, drop-down menus and an autocomplete function that helps to fill in the form swiftly.
 <br>
 
-> *Note*: Completely filled metadata are essential for finding datasets within the ATTO data portal and allows an easy publishing process through the Max Planck Digital Library (MPDL).
+> `Note:` Completely filled metadata are essential for finding datasets within the ATTO data portal and allows an easy publishing process through the Max Planck Digital Library (MPDL).
 <br>
 
 
@@ -127,7 +127,7 @@ After you complete the form, you can validate (see Figure 6) the entries and the
 
 When you completed and validated the metadata form, please click “Save” in order to finish the creation of the dataset. If there are metadata entries missing, the window shown in Figure 7 will pop up. In this case it is recommended that you click on “Cancel” to fill in the missing. However, while clicking on the “OK” button, the metadata form will be saved and you have the possibility to edit the form at a later point of time – even after primary data are already uploaded.
 
-> *Note*: After a dataset is published with an assigned DOI, do not change any part of the dataset. Please contact the data management team (attodbm@mpi-mail.mpg.de) for help.
+> `Note:` After a dataset is published with an assigned DOI, do not change any part of the dataset. Please contact the data management team (attodbm@mpi-mail.mpg.de) for help.
 <br>
 
 ![](https://github.com/ATTODataPortal/Documents/blob/992edd46cf0c43b59363d0d9b9c3540b0e03acd2/images_upload/image_Upload_7.png)*Figure 7: Warning if metadata information is missing*
@@ -244,7 +244,7 @@ Click next and define the primary keys of the dataset to be uploaded. Please che
 Click "Next" and you are asked to validate your dataset. In this step, the system checks whether the header information and the number of variables matches with the predefined data structure. If this is the case, you will see the green stroke "Validated!!" on the top of the page. Please click "Next" to get a summary of your created dataset and to finalize the upload process by clicking "Finish".
 <br>
 
-> *Note:* A dataset ID and a dataset version ID are assigned to the uploaded datasets. During each change of the metadata and/or the primary data, the dataset version ID is updated while the dataset ID is always the same. However, all dataset versions are stored on the server. Furthermore, while downloading data, the dataset version ID is taken into account. Please consider the change of datasets before publishing the dataset with assigned DOI since the link to the DOI has to be updated as well after this process. Further information regarding data publication can be found in a separate document.
+> `Note:` A dataset ID and a dataset version ID are assigned to the uploaded datasets. During each change of the metadata and/or the primary data, the dataset version ID is updated while the dataset ID is always the same. However, all dataset versions are stored on the server. Furthermore, while downloading data, the dataset version ID is taken into account. Please consider the change of datasets before publishing the dataset with assigned DOI since the link to the DOI has to be updated as well after this process. Further information regarding data publication can be found in a separate document.
 <br>
 
 ### 3.7 Add attachments to datasets
@@ -266,6 +266,13 @@ If a file is successfully added as an attachment, it appears in the overview. Ea
 The attachments of a data set can be downloaded by clicking on the respective file name.
 <br>
 
+### Appendix
 
+Table 1: Overview of metadata variables. These information are also available by hovering the mouse pointer over the respective variable name left side of the text boxes and the green header of the subsections. All fields marked with an asterisks * are mandatory for a valid metadata form.
 
-
+| Variable name                           | Description                          | Type of text box                          |
+| --------------------------------------- |------------------------------------| -----------------------------------------|
+| Dataset Level Metadata                  |                                      |                                           |
+| Title*                                  | Title of the dataset to be uploaded to the ATTO data portal.      |   Free text entry |
+| Abstract* | A brief overview of the resource to be uploaded to the ATTO data portal. The abstract should include basic information that summarizes the dataset. Example: Dataset provides information about water temperature collected in Lake Candia.      |    Free text entry |
+| Data Of Phd Thesis* | Was the dataset collected as part of a doctoral thesis? If so, data users are obliged to consider the special regulations in the data policy regarding PhD data. | Checkbox |
