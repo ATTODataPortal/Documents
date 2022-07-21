@@ -10,6 +10,7 @@ Contact ATTO Data Management Team: <attodbm@mpi-mail.mpg.de>
 
 ## Table of content
 <br>
+
 [1. Overview](#1-overview)
 
 [2. Defining a data structure](#2-defining-a-data-structure)
@@ -30,6 +31,7 @@ Contact ATTO Data Management Team: <attodbm@mpi-mail.mpg.de>
 
 ## 1 Overview
 <br>
+
 Under Collect you find tools to create datasets. The basic functions are (Figure 1):
 
 - Create Dataset
