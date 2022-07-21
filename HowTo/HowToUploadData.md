@@ -248,5 +248,17 @@ Click "Next" and you are asked to validate your dataset. In this step, the syste
 > *Note:* A dataset ID and a dataset version ID are assigned to the uploaded datasets. During each change of the metadata and/or the primary data, the dataset version ID is updated while the dataset ID is always the same. However, all dataset versions are stored on the server. Furthermore, while downloading data, the dataset version ID is taken into account. Please consider the change of datasets before publishing the dataset with assigned DOI since the link to the DOI has to be updated as well after this process. Further information regarding data publication can be found in a separate document.
 <br>
 
-### 3.7
+### 3.7 Add attachments to datasets
+<br>
+
+The Attachments-tab (Figure 20) allows users, who have upload rights to dataset, to attach files such as descriptions as word document, text file, excel file, source code, images, etc. to the respective dataset. Other users can only see or download these attachments.
+
+In order to add attachments to datasets, a brief description of the attachment should first be given (Figure 21). Then you can select a file from the local hard disk by clicking the "Select" button and upload it to the database by clicking the "Push" button (Figure 21).
+
+![](https://github.com/ATTODataPortal/Documents/blob/7350254ed736c3088f82eb1dc39432444fa17714/images_upload/Attachements_3.png)*Figure 20: "Attachments"-tab in the dataset view*
+<br>
+
+If a file is successfully added as an attachment, it appears in the overview. Each individual attachment is assigned an ID. The file name, file type and file size are also listed (Figure 21). While moving the mouse pointer over the information icon, the previously entered description of the attachment is displayed. You can also add more than one attachment to one dataset.
+
+![](https://github.com/ATTODataPortal/Documents/blob/7350254ed736c3088f82eb1dc39432444fa17714/images_upload/Attachements_4.png)*Figure 21: "Attachments"-tab with uploaded file*
 <br>
