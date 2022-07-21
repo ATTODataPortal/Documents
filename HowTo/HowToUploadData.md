@@ -24,7 +24,6 @@ Contact ATTO Data Management Team: <attodbm@mpi-mail.mpg.de>
 - [3.5 Push big file](#35-push-big-file)
 - [3.6 Add data or update dataset](#36-add-data-or-update-dataset)
 - [3.7 Add attachments to datasets](#37-add-attachments-to-datasets)
-- [3.8 Copy Metadata of an existing dataset](#38-copy-Metadata-of-an-existing-dataset)
 
 [Appendix](#appendix)
 <br>
@@ -263,3 +262,10 @@ If a file is successfully added as an attachment, it appears in the overview. Ea
 
 ![](https://github.com/ATTODataPortal/Documents/blob/7350254ed736c3088f82eb1dc39432444fa17714/images_upload/Attachements_4.png)*Figure 21: "Attachments"-tab with uploaded file*
 <br>
+
+The attachments of a data set can be downloaded by clicking on the respective file name.
+<br>
+
+
+
+
