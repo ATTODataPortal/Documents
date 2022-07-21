@@ -287,3 +287,6 @@ Table 1: Overview of metadata variables. These information are also available by
 | Format | Technical format of the original resource. Use file extension or MIME type where possible. E.g. jpg, png, xlsx, csv, dat etc. | Free text entry |
 | Version | Version number of the resource/dataset. If the primary resource has changed the version number increases. Register a new identifier for a major version change. Individual stewards need to determine which are major vs. minor versions. | Free text entry |
 | Data Creator(s)* | The main researchers involved working on the data, uploading the data to the data portal or the authors of the publication in priority order. May be a corporate/ institutional or personal name. | One or more persons can be selected via the + button on the right side. |
+| Data Owner(s)* | Person(s) who own this dataset. Mostly these are the PIs of the project. | One or more persons can be selected via the + button on the right side. |
+| Data Contributor(s)* | Person(s) contributed to the data or/and helped to collect the data. | One or more persons can be selected via the + button on the right side. |
+| Full name* | Fullname of the Data Creator, Data Onwer and Data Contributor respectively (e.g. John Doe). Name format: Given Family | Free text entry |
