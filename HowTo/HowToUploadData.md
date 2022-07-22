@@ -309,7 +309,9 @@ The attachments of a data set can be downloaded by clicking on the respective fi
 ### Appendix
 
 
+<p align="justify">
 Table 1: Overview of metadata variables. These information are also available by hovering the mouse pointer over the respective variable name left side of the text boxes and the green header of the subsections. All fields marked with an asterisks * are mandatory for a valid metadata form.
+</p>
 <br>
 <br>
 
