@@ -78,7 +78,7 @@ agree to:” and “As a DATA USER, I agree to:” have to be read carefully as 
 in order to be able to register. These points are the most important points of the data policy, but this
 does not mean that the data policy itself does not need to be read.
 </p>
-After pressing the “Register” button an e‐mail with an authentication link will be send to the given email
+After pressing the “Register” button an e‐mail with an authentication link will be send to the given e-mail
 address (Figure 3).
 <br>
 <br>
