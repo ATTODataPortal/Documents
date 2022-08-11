@@ -74,3 +74,35 @@ You will be directed to the main page of the chosen dataset, where details on Me
 </p>
 <br>
 
+![](https://github.com/ATTODataPortal/Documents/blob/8661af4872b94534e7ff25cb0502c25d0f251c05/images_upload/image_explore5.png?raw=true)*Figure 4: Overview of dataset details and metadata information*
+<br>
+<br>
+
+<p align="justify">
+Figure 5 shows the “Data Structure” tab, which gives an overview of the variables of the selected dataset. Information like variable name, ID, a short name, a description of the respective variable, unit and data type are given. The data structure has to be defined by the data manager before uploading data. A detailed description on this workflow will be given in the document “03_Introduction how to create dataset and upload data”.
+</p>
+<br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/8661af4872b94534e7ff25cb0502c25d0f251c05/images_upload/image_explore5.png?raw=true)*Figure 4: Overview of dataset details and metadata information*
+<br>
+<br>
+
+
+## 3. Request Primary Data
+
+<p align="justify">
+In case you are interested in a specific dataset, which is not publicly available, you can request this specific dataset via the request button (Figure 4). By filling in the intention of data usage and clicking the request button, a request is made to the data owners, who are informed of the request by e-mail. A list of the open requests will be displayed in the dashboard of the respective data owner. Once the data owner accepts the request, the user who made the request is automatically granted read and download rights.
+</p>
+<br>
+
+## 4. Download Primary Data
+
+<p align="justify">
+Datasets, which are open for consortium members or which are already published with an assigned DOI, can be freely downloaded without sending a request to the data owners. To do so, click on the “Primary Data” tab where you find the activated “Download” buttons. You can download the data as an Excel file, as comma separated file or as tab separated text file (Figure 5) or as zipped package, which includes the primary data (either as template file, excel file, csv file or as text file), the data structure, the metadata as html file and the respective attachments ( Figure 5). To get an overview of all columns of a large dataset you can click on the option "Fit table to screen".
+</p>
+<br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/8661af4872b94534e7ff25cb0502c25d0f251c05/images_upload/image_explore_5.png?raw=true)*Figure 5: Overview of primary data with activated download buttons*
+<br>
+<br>
+
