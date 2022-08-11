@@ -61,7 +61,7 @@ The Search UI contains of the following features, which help to filter uploaded 
 ## 2. View and explore datasets
 
 <p align="justify">
-Details of each dataset can be found by clicking on the small eye-icon in the very right column of the dataset table view (see Figure 3).
+Details of each dataset can be found by clicking on the small eye-icon in the very right column of the dataset table view (Figure 3).
 </p>
 <br>
 
@@ -70,7 +70,7 @@ Details of each dataset can be found by clicking on the small eye-icon in the ve
 <br>
 
 <p align="justify">
-You will be directed to the main page of the chosen dataset, where details on Metadata, Primary Data, Data Structure, Dataset Permissions, publication and attachments to the respective dataset are given in different tabs (see Figure 4). Each user is allowed to see the metadata of each dataset independent of the respective rights as well as download the metadata as html- or XML-format via the “Download Metadata”-button. If users have rights on the dataset, they are allowed to edit and copy the metadata, to check and download primary data, to see the data structure and dataset permission, and to click on the “Publish”-tab. However, in case users do not have rights on the respective dataset, only metadata and the data structure can be seen, all other tabs are greyed out (Figure 4).
+You will be directed to the main page of the chosen dataset, where details on Metadata, Primary Data, Data Structure, Dataset Permissions, publication and attachments to the respective dataset are given in different tabs (Figure 4). Each user is allowed to see the metadata of each dataset independent of the respective rights as well as download the metadata as html- or XML-format via the “Download Metadata”-button. If users have rights on the dataset, they are allowed to edit and copy the metadata, to check and download primary data, to see the data structure and dataset permission, and to click on the “Publish”-tab. However, in case users do not have rights on the respective dataset, only metadata and the data structure can be seen, all other tabs are greyed out (Figure 4).
 </p>
 <br>
 
@@ -138,6 +138,6 @@ A left click on the respective funnel symbol opens another menu for filtering th
 <br>
 
 <p align="justify">
-The respective filtered data can be downloaded via the Download button either as Excel or as text file (Figure 9 ). The “Download Dataset” button can be used to download the entire unfiltered dataset.
+The respective filtered data can be downloaded via the Download button either as Excel or as text file (Figure 9). The “Download Dataset” button can be used to download the entire unfiltered dataset.
 </p>
 <br>
