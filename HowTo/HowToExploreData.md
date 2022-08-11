@@ -28,15 +28,15 @@ Contact ATTO Data Management Team: <attodbm@mpi-mail.mpg.de>
 After logging into the ATTO data portal, you will be automatically directed to the Search User Interface (UI, Figure 1). You can navigate back to the search function from any other subpage by clicking "Search" in the menu bar at the top of the site. By default, the search shows all available datasets. By activating the check mark "public only", only publically available datasets are displayed (Figure 2).
 </p>
 <br>
+<p align="justify">
+The main nodes of the Search UI are based on metadata entered. Thus, completely filled metadata are essential for finding datasets within the ATTO data portal.
+</p>
+<br>
 
 ![](https://github.com/ATTODataPortal/Documents/blob/e9874074da2d9d6e2c3d7a853bafbe443bc1eb40/images_upload/image_explore1.png?raw=true)*Figure 1: Search User Interface showing only data which are public*
 <br>
 <br>
 
-<p align="justify">
-The main nodes of the Search UI are based on metadata entered. Thus, completely filled metadata are essential for finding datasets within the ATTO data portal.
-</p>
-<br>
 <p align="justify">
 The Search UI contains of the following features, which help to filter uploaded data according to owners, location, keywords, etc.:
 </p>
@@ -83,7 +83,7 @@ Figure 5 shows the “Data Structure” tab, which gives an overview of the vari
 </p>
 <br>
 
-![](https://github.com/ATTODataPortal/Documents/blob/8661af4872b94534e7ff25cb0502c25d0f251c05/images_upload/image_explore5.png?raw=true)*Figure 4: Overview of dataset details and metadata information*
+![](https://github.com/ATTODataPortal/Documents/blob/38109ea9757c2b8b82773a00cf89f0f2e0d4573c/images_upload/image_explore45.png?raw=true)*Figure 5: Overview of data structure*
 <br>
 <br>
 
@@ -91,18 +91,53 @@ Figure 5 shows the “Data Structure” tab, which gives an overview of the vari
 ## 3. Request Primary Data
 
 <p align="justify">
-In case you are interested in a specific dataset, which is not publicly available, you can request this specific dataset via the request button (Figure 4). By filling in the intention of data usage and clicking the request button, a request is made to the data owners, who are informed of the request by e-mail. A list of the open requests will be displayed in the dashboard of the respective data owner. Once the data owner accepts the request, the user who made the request is automatically granted read and download rights.
+In case you are interested in a specific dataset, which is not publicly available, you can request this specific dataset via the request button (Figure 4 & 5). By filling in the intention of data usage and clicking the request button, a request is made to the data owners, who are informed of the request by e-mail. A list of the open requests will be displayed in the dashboard of the respective data owner. Once the data owner accepts the request, the user who made the request is automatically granted read and download rights.
 </p>
 <br>
 
 ## 4. Download Primary Data
 
 <p align="justify">
-Datasets, which are open for consortium members or which are already published with an assigned DOI, can be freely downloaded without sending a request to the data owners. To do so, click on the “Primary Data” tab where you find the activated “Download” buttons. You can download the data as an Excel file, as comma separated file or as tab separated text file (Figure 5) or as zipped package, which includes the primary data (either as template file, excel file, csv file or as text file), the data structure, the metadata as html file and the respective attachments ( Figure 5). To get an overview of all columns of a large dataset you can click on the option "Fit table to screen".
+Datasets, which are open for consortium members or which are already published with an assigned DOI, can be freely downloaded without sending a request to the data owners. To do so, click on the “Primary Data” tab where you find the activated “Download” buttons. You can download the data as an Excel file, as comma separated file or as tab separated text file (Figure 6) or as zipped package, which includes the primary data (either as template file, excel file, csv file or as text file), the data structure, the metadata as html file and the respective attachments ( Figure 6). To get an overview of all columns of a large dataset you can click on the option "Fit table to screen".
 </p>
 <br>
 
-![](https://github.com/ATTODataPortal/Documents/blob/8661af4872b94534e7ff25cb0502c25d0f251c05/images_upload/image_explore_5.png?raw=true)*Figure 5: Overview of primary data with activated download buttons*
+![](https://github.com/ATTODataPortal/Documents/blob/8661af4872b94534e7ff25cb0502c25d0f251c05/images_upload/image_explore_5.png?raw=true)*Figure 6: Overview of primary data with activated download buttons*
 <br>
 <br>
 
+## 5. Attachments
+
+<p align="justify">
+The attachment-tab (Figure 7) allows users, who have upload rights to dataset to attach files such as descriptions, images, etc. to the respective dataset. Other users can only see or download these attachments.
+</p>
+<br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/38109ea9757c2b8b82773a00cf89f0f2e0d4573c/images_upload/image_explore6.png?raw=true)*Figure 7: View and download attachments to datasets*
+<br>
+<br>
+
+## 6. Filter Primary Data
+
+<p align="justify">
+In the Primary data view it is possible to filter the data by column or by row or both. In order to filter specific columns the mouse pointer must be navigated to one of the funnel symbols and a right click opens a drop down menu with all column names. These can now be activated or deactivated with a check mark (Figure 8).
+</p>
+<br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/38109ea9757c2b8b82773a00cf89f0f2e0d4573c/images_upload/image_explore7.png?raw=true)*Figure 8: Filter function by columns*
+<br>
+<br>
+
+<p align="justify">
+A left click on the respective funnel symbol opens another menu for filtering the rows by data. This filter works via different database queries like “Is equal to”, “Is greater than or equal to”, “Is greater than”, “Is less than or equal to” and so on (Figure 9).
+</p>
+<br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/38109ea9757c2b8b82773a00cf89f0f2e0d4573c/images_upload/image_explore8.png?raw=true)*Figure 9: Filter function by rows*
+<br>
+<br>
+
+<p align="justify">
+The respective filtered data can be downloaded via the Download button either as Excel or as text file (Figure 9 ). The “Download Dataset” button can be used to download the entire unfiltered dataset.
+</p>
+<br>
