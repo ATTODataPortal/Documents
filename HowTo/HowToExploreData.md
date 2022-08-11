@@ -57,3 +57,20 @@ The Search UI contains of the following features, which help to filter uploaded 
 ![](https://github.com/ATTODataPortal/Documents/blob/e9874074da2d9d6e2c3d7a853bafbe443bc1eb40/images_upload/image_explore3.png?raw=true)*Figure 2: Search User Interface*
 <br>
 <br>
+
+## 2. View and explore datasets
+
+<p align="justify">
+Details of each dataset can be found by clicking on the small eye-icon in the very right column of the dataset table view (see Figure 3).
+</p>
+<br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/df50ecb1035772b78fd33f0f08664019684ab9fc/images_upload/image_explore4.png?raw=true)*Figure 3: Directing to detailed information of specific datasets*
+<br>
+<br>
+
+<p align="justify">
+You will be directed to the main page of the chosen dataset, where details on Metadata, Primary Data, Data Structure, Dataset Permissions, publication and attachments to the respective dataset are given in different tabs (see Figure 4). Each user is allowed to see the metadata of each dataset independent of the respective rights as well as download the metadata as html- or XML-format via the “Download Metadata”-button. If users have rights on the dataset, they are allowed to edit and copy the metadata, to check and download primary data, to see the data structure and dataset permission, and to click on the “Publish”-tab. However, in case users do not have rights on the respective dataset, only metadata and the data structure can be seen, all other tabs are greyed out (Figure 4).
+</p>
+<br>
+
