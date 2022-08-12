@@ -33,18 +33,18 @@ The main nodes of the Search UI are based on metadata entered. Thus, completely 
 </p>
 <br>
 
-![](https://github.com/ATTODataPortal/Documents/blob/e9874074da2d9d6e2c3d7a853bafbe443bc1eb40/images_upload/image_explore1.png?raw=true)*Figure 1: Search User Interface showing only data which are public*
-<br>
-<br>
-
 <p align="justify">
 The Search UI contains of the following features, which help to filter uploaded data according to owners, location, keywords, etc.:
 </p>
-<br>
 
 - <p align="justify">Categories/Facets: The main categories like “Person”, “Location”, etc. are based on main metadata entries. The numbers next to the categories indicate the number of existing datasets in the ATTO data portal with the respective entries.</p>
 
 - <p align="justify">Properties: This function allows to use predefined dropdown components to filter datasets according to properties. There is only one possible choice for every component. Results and facets are updated accordingly.</p>
+<br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/e9874074da2d9d6e2c3d7a853bafbe443bc1eb40/images_upload/image_explore1.png?raw=true)*Figure 1: Search User Interface showing only data which are public*
+<br>
+<br>
 
 - <p align="justify">Free text search: In the free text search, you can either search for keywords in all predefined categories or you can choose a specific category from the dropdown menu on the left. It uses autocomplete for predicting words and phrases once three letters are entered.</p>
 
@@ -63,16 +63,16 @@ The Search UI contains of the following features, which help to filter uploaded 
 <p align="justify">
 Details of each dataset can be found by clicking on the small eye-icon in the very right column of the dataset table view (Figure 3).
 </p>
+
+<p align="justify">
+You will be directed to the main page of the chosen dataset, where details on Metadata, Primary Data, Data Structure, Dataset Permissions, publication and attachments to the respective dataset are given in different tabs (Figure 4). Each user is allowed to see the metadata of each dataset independent of the respective rights as well as download the metadata as html- or XML-format via the “Download Metadata”-button. If users have rights on the dataset, they are allowed to edit and copy the metadata, to check and download primary data, to see the data structure and dataset permission, and to click on the “Publish”-tab. However, in case users do not have rights on the respective dataset, only metadata and the data structure can be seen, all other tabs are greyed out (Figure 4).
+</p>
 <br>
 
 ![](https://github.com/ATTODataPortal/Documents/blob/df50ecb1035772b78fd33f0f08664019684ab9fc/images_upload/image_explore4.png?raw=true)*Figure 3: Directing to detailed information of specific datasets*
 <br>
 <br>
 
-<p align="justify">
-You will be directed to the main page of the chosen dataset, where details on Metadata, Primary Data, Data Structure, Dataset Permissions, publication and attachments to the respective dataset are given in different tabs (Figure 4). Each user is allowed to see the metadata of each dataset independent of the respective rights as well as download the metadata as html- or XML-format via the “Download Metadata”-button. If users have rights on the dataset, they are allowed to edit and copy the metadata, to check and download primary data, to see the data structure and dataset permission, and to click on the “Publish”-tab. However, in case users do not have rights on the respective dataset, only metadata and the data structure can be seen, all other tabs are greyed out (Figure 4).
-</p>
-<br>
 
 ![](https://github.com/ATTODataPortal/Documents/blob/8661af4872b94534e7ff25cb0502c25d0f251c05/images_upload/image_explore5.png?raw=true)*Figure 4: Overview of dataset details and metadata information*
 <br>
@@ -114,6 +114,10 @@ The attachment-tab (Figure 7) allows users, who have upload rights to dataset to
 <br>
 
 ![](https://github.com/ATTODataPortal/Documents/blob/38109ea9757c2b8b82773a00cf89f0f2e0d4573c/images_upload/image_explore6.png?raw=true)*Figure 7: View and download attachments to datasets*
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 
