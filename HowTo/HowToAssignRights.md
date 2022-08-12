@@ -25,7 +25,7 @@ The Dashboard gives an overview table of all datasets you created or you have ri
 <br>
 <br>
 
-![]()*Figure 1: Dashboard*
+![](https://github.com/ATTODataPortal/Documents/blob/d78033e7d62278dc38427383dbc1d25068a86b64/images_upload/image_rights1.png?raw=true)*Figure 1: Dashboard*
 <br>
 <br>
 
@@ -36,7 +36,7 @@ As data owner, you can grant rights to each registered user or to groups of user
 <br>
 <br>
 
-![]()*Figure 2: Overview of dataset section*
+![](https://github.com/ATTODataPortal/Documents/blob/d78033e7d62278dc38427383dbc1d25068a86b64/images_upload/image_rights2.png?raw=true)*Figure 2: Overview of dataset section*
 <br>
 <br>
 
@@ -64,7 +64,7 @@ lose rights, please contact the data management team (attodbm@mpi-mail.mpg.de).
 <br>
 <br>
 
-![]()*Figure 3: Dataset Permission section*
+![](https://github.com/ATTODataPortal/Documents/blob/d78033e7d62278dc38427383dbc1d25068a86b64/images_upload/image_rights3.png?raw=true)*Figure 3: Dataset Permission section*
 <br>
 <br>
 
@@ -80,11 +80,6 @@ of the open requests will be displayed in the “Decisions” section of the das
 data owner.
 </p>
 <br>
-<br>
-
-![](https://github.com/ATTODataPortal/Documents/blob/0733a0aab01ce7671ea0c4539f804bdd20142afc/images_upload/image_explore_4.png?raw=true)*Figure 4: Overview of dataset details including “Request”-button*
-<br>
-<br>
 
 <p align="justify">
 A successfully sent request is marked with a grayed out Request button with the inscription "Request has been made" (Figure 5). Once the data owner accepts the request, the user who made the request is automatically granted read and thus download rights.
@@ -92,7 +87,12 @@ A successfully sent request is marked with a grayed out Request button with the 
 <br>
 <br>
 
-![]()*Figure 5: Overview of dataset for successfully completed request*
+![](https://github.com/ATTODataPortal/Documents/blob/0733a0aab01ce7671ea0c4539f804bdd20142afc/images_upload/image_explore_4.png?raw=true)*Figure 4: Overview of dataset details including “Request”-button*
+<br>
+<br>
+<br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/d78033e7d62278dc38427383dbc1d25068a86b64/images_upload/image_rights5.png?raw=true)*Figure 5: Overview of dataset for successfully completed request*
 <br>
 <br>
 
@@ -107,7 +107,7 @@ If the requesting user is to be assigned read, and thus download rights to the r
 <br>
 <br>
 
-![]()*Figure 6: “Decisions” section in the personal dashboard showing received requests*
+![](https://github.com/ATTODataPortal/Documents/blob/d78033e7d62278dc38427383dbc1d25068a86b64/images_upload/image_rights6.png?raw=true)*Figure 6: “Decisions” section in the personal dashboard showing received requests*
 <br>
 <br>
 
@@ -117,7 +117,7 @@ To accept the request you can click on the box and a window will open in which y
 <br>
 <br>
 
-![]()*Figure 7: Grant rights by accepting requests*
+![](https://github.com/ATTODataPortal/Documents/blob/d78033e7d62278dc38427383dbc1d25068a86b64/images_upload/image_rights7.png?raw=true)*Figure 7: Grant rights by accepting requests*
 <br>
 <br>
 
@@ -127,6 +127,6 @@ As soon as you have agreed with "OK", the read rights are automatically assigned
 <br>
 <br>
 
-![]()*Figure 8: “Decisions” section in the personal dashboard showing accepted requests*
+![](https://github.com/ATTODataPortal/Documents/blob/d78033e7d62278dc38427383dbc1d25068a86b64/images_upload/image_rights8.png?raw=true)*Figure 8: “Decisions” section in the personal dashboard showing accepted requests*
 <br>
 <br>
