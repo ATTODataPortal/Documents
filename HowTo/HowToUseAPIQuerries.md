@@ -63,7 +63,7 @@ Every registered user can use APIs and gets a personal token, which is directly 
 </p>
 <br>
 
-![](?raw=true)*Figure 1: Drop-down menu for personal user “Profile”, “Token”, “Api” and to log off.*
+![](https://github.com/ATTODataPortal/Documents/blob/4487b678e436a059e6770863e8c10194dba1fadf/images_upload/image_API1.png?raw=true)*Figure 1: Drop-down menu for personal user “Profile”, “Token”, “Api” and to log off.*
 <br>
 <br>
 
@@ -72,7 +72,7 @@ If you click on "Token" a new page will open with your personalized 65 character
 </p>
 <br>
 
-![](?raw=true)*Figure 2: Personalized 65 character long token*
+![](https://github.com/ATTODataPortal/Documents/blob/4487b678e436a059e6770863e8c10194dba1fadf/images_upload/image_API2.png?raw=true)*Figure 2: Personalized 65 character long token*
 <br>
 <br>
 
@@ -81,7 +81,7 @@ As mentioned earlier, APIs provide an interface to the database, which is mainly
 </p>
 <br>
 
-![](?raw=true)*Figure 3: Link to the Swagger UI for browser application is provided in the user drop-down menu via “API”*
+![](https://github.com/ATTODataPortal/Documents/blob/4487b678e436a059e6770863e8c10194dba1fadf/images_upload/image_API3.png?raw=true)*Figure 3: Link to the Swagger UI for browser application is provided in the user drop-down menu via “API”*
 <br>
 <br>
 
