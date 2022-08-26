@@ -90,8 +90,5 @@ Since the DOI refers to the respective dataset with a specific dataset ID, versi
 </p>
 <br>
 
-<p align="justify">
 If you have any questions or require a DOI, please contact the data management team via attodbm@mpi-mail.mpg.de.
-</p>
-<br>
 
