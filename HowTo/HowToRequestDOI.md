@@ -27,7 +27,7 @@ The ATTO data portal is the main tool for data sharing within the ATTO consortiu
 ## 2 FAIR Priciples in the ATTO Data Portal
 
 <p align="justify">
-The data management within the ATTO consortium follows the FAIR Guiding Principles for scientific data management and stewardship (Wilkinson et al., ttps://www.nature.com/articles/sdata201618). This means that data should be …
+The data management within the ATTO consortium follows the FAIR Guiding Principles for scientific data management and stewardship (Wilkinson et al., https://www.nature.com/articles/sdata201618). This means that data should be …
 </p>
 <br>
 
