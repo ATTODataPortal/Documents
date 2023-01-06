@@ -52,23 +52,24 @@ Data structures contain all variables, which are part of the dataset to be uploa
 
 ## 3 Data Upload Workflow
 
+
+1. Users create a data sample of their data and send it to the data management (attodbm@bgc-jena.mpg.de).
+
+2. The data management creates a structure for each dataset and defines the variables based on existing entries and future uses. These are part of the data template for the upload.
+
+3. This data template will be sent to the users.
+
+4. Users enter their data in the data template.
+
+5. Together with the data management, the metadata are created and the data will be uploaded to the ATTO Data portal.
+
+6. If the data has been uploaded to the data portal, the respective user rights for the dataset are assigned together with the data management.
+
+7. In connection with point 6 it also results how the data is available. There are the following scenarios: a) Data collected in the context of a (doctoral) thesis will be published latest 6 months after defense. b) Data are freely available for the ATTO Consortium. In both cases it is possible to request the data from the owner via the "Request Access" button if not freely available. c) Data can be published so that they can be downloaded by interested scientists without registration. In this case it is possible to assign a DOI to the data set via the Max Planck Digital Library/DataCite.
+<br>
+
 ![](https://github.com/ATTODataPortal/Documents/blob/86f528f2be43680c56a1d8eda417b78c43c6e5ff/images_upload/image_publish2.png?raw=true)*Figure 2: Detailed workflow for data uploads to the ATTO Data Portal*
 <br>
-<br>
-
-* 1. Users create a data sample of their data and send it to the data management (attodbm@bgc-jena.mpg.de).
-
-* 2. The data management creates a structure for each dataset and defines the variables based on existing entries and future uses. These are part of the data template for the upload.
-
-* 3. This data template will be sent to the users.
-
-* 4. Users enter their data in the data template.
-
-* 5. Together with the data management, the metadata are created and the data will be uploaded to the ATTO Data portal.
-
-* 6. If the data has been uploaded to the data portal, the respective user rights for the dataset are assigned together with the data management.
-
-* 7. In connection with point 6 it also results how the data is available. There are the following scenarios: a) Data collected in the context of a (doctoral) thesis will be published latest 6 months after defense. b) Data are freely available for the ATTO Consortium. In both cases it is possible to request the data from the owner via the "Request Access" button if not freely available. c) Data can be published so that they can be downloaded by interested scientists without registration. In this case it is possible to assign a DOI to the data set via the Max Planck Digital Library/DataCite.
 <br>
 
 ## 4 DOI registration
