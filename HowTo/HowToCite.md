@@ -1,4 +1,4 @@
-# Introduction how to cite a dataset
+# Introduction how to cite a dataset and acknowledge the ATTO Project
 
 #
 
