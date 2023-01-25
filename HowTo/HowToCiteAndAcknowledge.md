@@ -9,15 +9,15 @@ Contact ATTO Data Management Team: <attodbm@mpi-mail.mpg.de>
 
 ## Table of content
 
-[1. How to credit data](#1-how-to-credit-data)
+[1. How to cite data](#1-how-to-cite-data)
 - [1.1 Why to cite a dataset](#11-why-to-cite-a-dataset)
 - [1.2 How to cite a dataset](#12-how-to-cite-a-dataset)
 
-[2. How to acknowledge](#2-how-to-acknowledge)
+[2. How to acknowledge the ATTO Project](#2-how-to-acknowledge-the-atto-project)
 - [2.1 Everyone using ATTO data](#21-everyone-using-atto-data)
 - [2.2 Using ATTO data and funded by the BMBF-proposal](#22-using-atto-data-and-funded-by-the-bmbf-proposal)
 
-## 1 How to credit data
+## 1 How to cite data
 
 ### 1.1 Why to cite a dataset
 <p align="justify">
@@ -69,7 +69,7 @@ If you click on "Cite", different citation styles will be suggested for the resp
 <br>
 <br>
 
-## 2 How to acknowledge
+## 2 How to acknowledge the ATTO Project
 
 ### 2.1 Everyone using ATTO data
 <p align="justify">
