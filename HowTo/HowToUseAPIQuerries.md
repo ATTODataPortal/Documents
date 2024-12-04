@@ -7,6 +7,37 @@ Authors: Marcus Guderle
 Contact ATTO Data Management Team: <attodbm@mpi-mail.mpg.de>
 
 
+## Table of content
+
+[1. Overview](#1-overview)
+
+[2. Application of APIs](#2-application-of-apis)
+
+- [2.1 Get an overview of datasets and their attachements](#21-get-an-overview-of-datasets-and-their-attachements)
+- [2.2 Add attachements to datasets](#22-add-attachements-to-datasets)
+- [2.3 Get a list of dataset ids](#23-get-a-list-of-dataset-ids)
+- [2.4 Add datasets via API](#24-add-datasets-via-API)
+- [2.5 Get information about data quality](#25-get-information-about-data-quality)
+- [2.6 Download dataset via dataset id](#26-download-dataset-via-dataset-id)
+- [2.7 Get information about data statistics](#27-get-information-about-data-statistics)
+- [2.8 Get a list of datasets with metadata](#28-get-a-list-of-datasets-with-metadata)
+- [2.9 Get metadata of a dataset via dataset id](#29-get-metadata-of-a-dataset-via-dataset-id)
+- [2.10 Get a list of data structure ids](#210-get-a-list-of-data-structure-ids)
+- [2.11 Get data structure via data structure id](#211-get-data-structure-via-data-structure-id)
+
+[3. rBExIS](#3-rBExIS)
+
+- [3.1 Setup rBExIS](#31-Setup-rBExIS)
+    - [3.1.1 Download rBExIS package and create R-project](#311-download-rBExIS-package-and-create-R-project)
+    - [3.1.2 Install rBExIS package](#312-install-rBExIS-package)
+- [3.2 Application of rBExIS](#32-application-of-rBExIS)
+    - [3.2.1 Get a list of dataset ids](#321-get-a-list-of-dataset-ids)
+    - [3.2.2 Import dataset via dataset id](#322-import-dataset-via-dataset-id)
+    - [3.2.3 Get a list of datasets with metadata](#323-get-a-list-of-datasets-with-metadata)
+    - [3.2.4 Get metadata of a dataset via dataset id](#324-get-metadata-of-a-dataset-via-dataset-id)
+    - [3.2.5 Get a list of data structure ids](#325-get-a-list-of-data-structure-ids)
+<br>
+
 ## 1 Overview
 
 <p align="justify">
@@ -66,3 +97,5 @@ On the Swagger page you can see three categories: Data, Metadata and Structures.
 ![](https://github.com/ATTODataPortal/Documents/blob/dad768bfaa2b6c11323c4c74163e56d49a801531/images_upload/image_API4.png?raw=true)*Figure 4: Categories for API queries on the ATTO Swagger Browser Interface*
 <br>
 <br>
+
+### 2.1 Get an overview of datasets and their attachements
