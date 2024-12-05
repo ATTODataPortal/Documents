@@ -3,7 +3,7 @@
 
 #
 
-Authors: Marcus Guderle
+Authors: Juliana Menger, Marcus Guderle
 
 Contact ATTO Data Management Team: <attodbm@bgc-jena.mpg.de>
 
@@ -31,24 +31,31 @@ Contact ATTO Data Management Team: <attodbm@bgc-jena.mpg.de>
 [Appendix](#appendix)
 <br>
 
-## 1 Overview
-
-Under Collect you find tools to create datasets. The basic functions are (Figure 1):
-
-- Create Dataset
-- Upload Data
-- Import Data
-- Push Big Files
+## 1 Create a dataset
+<p align="justify">
+The “Create” field, which is used to generate a dataset, is located in the second position in the top menu. (Figure 1):
+</p>
 <br>
 
 
-![](https://github.com/ATTODataPortal/Documents/blob/9d49bebc0f08b7326011e42231c4d93f9115fc41/images_upload/image_Upload_1.png?raw=true)*Figure 1: Functions of the upload menu*
+![](https://github.com/ATTODataPortal/Documents/blob/aa23b79c4fc65acf03dd551d01db2834c724ebcd/images_upload_3.0/Create_1.png?raw=true)*Figure 1: Overview of "Create" menu for creating a dataset*
 <br>
+<p align="justify">
+Click on “Create” to open a page with two templates to choose from. If primary data are to be uploaded as a structured data set, the “Data” template needs to be selected. 
+If files are to be uploaded to the data portal, select the “File” template.
+
+It is advisable to always upload tabular data as a structured dataset, as this offers several advantages for the end user. Among other things, the variable and the respective values can be viewed. Furthermore, when downloading the dataset, information about the respective data structure, the metadata, if already published, the citation as a BibTex file and the metadata as an .xml file are also provided.
+</p>
+<br>
+
 <br>
 
 ## 2 Defining a data structure
 <p align="justify">
 Data structures contain all variables, which are part of the dataset to be uploaded. Prior to uploading a dataset, the data structure has to be defined in order to have a template for the upload process. Defined data structures can be used and should be used multiple times for long term data. This prevents that the same variable is defined several times with different names and units (e.g. time in seconds and in Universal time). This is essential to enable an extensive and consistent data management as well as exact search results. For this reason, the definition of data structures will be done by the data management team.
+
+
+
 </p>
 <br>
 
