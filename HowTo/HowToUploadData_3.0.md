@@ -44,7 +44,9 @@ The “Create” field, which is used to generate a dataset, is located in the s
 Click on “Create” to open a page with two templates to choose from. If primary data are to be uploaded as a structured data set, the “Data” template needs to be selected. 
 If files are to be uploaded to the data portal, select the “File” template.
 
-It is advisable to always upload tabular data as a structured dataset, as this offers several advantages for the end user. Among other things, the variable and the respective values can be viewed. Furthermore, when downloading the dataset, information about the respective data structure, the metadata, if already published, the citation as a BibTex file and the metadata as an .xml file are also provided.
+It is advisable to always upload tabular data as a structured dataset, as this offers several advantages for the end user. Among other things, the variable and the respective values can be viewed. Furthermore, when downloading the dataset, information about the respective data structure, the metadata, if already published, the citation as a BibTex file and the metadata as an .xml file are also provided. 
+
+In addition, the primary data can be selected and this selection can be downloaded using the download function in the “Data” tap.  
 </p>
 <br>
 
@@ -64,7 +66,7 @@ Data structures contain all variables, which are part of the dataset to be uploa
 <br>
 <p align="justify">
 It is possible to create data structures for tabular (structured) data such as Excel tables, CSV-Files, etc. and for files such as images, videos, etc. Please send a request for a data structure including the header of your dataset with a clear description of each variable to the data management team (<attodbm@mpi-mail.mpg.de>). The respective data structure will be created according to the example in Figure 1. The data management team will send you an Excel Template similar to Figure 2, which can be filled with the respective data and used for their upload.
-To open this template, you have to enable macros. Macros automate frequently-used tasks. Depending on what Microsoft version you use, enable or disable macros is a bit different. Macro security settings are generally located in the Trust Center.
+To open this template, you have to enable macros. Macros automate frequently-used tasks. Depending on what Microsoft version you use, enable or disable macros is a bit different. Macro security settings are generally located in the Trust Center. 
 
 Please insert the data in the respective column below the grey shaded area (Figure 3).
 </p>
