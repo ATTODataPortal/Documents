@@ -128,6 +128,35 @@ We recommend that you select an existing data structure. Please send a request f
 
 
 ### 3.2 Add attachments to datasets
+
+<p align="justify">
+The Attachments-tab (Figure 20) allows users, who have upload rights to dataset, to attach files such as descriptions as word document, text file, excel file, source code, images, etc. to the respective dataset. Other users can only see or download these attachments.
+
+In order to add attachments to datasets, a brief description of the attachment should first be given (Figure 21). Then you can select a file from the local hard disk by clicking the "Select" button and upload it to the database by clicking the "Push" button (Figure 21).
+</p>
+<br>
+<br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/7350254ed736c3088f82eb1dc39432444fa17714/images_upload/Attachements_3.png?raw=true)*Figure 20: "Attachments"-tab in the dataset view*
+<br>
+<br>
+<p align="justify">
+If a file is successfully added as an attachment, it appears in the overview. Each individual attachment is assigned an ID. The file name, file type and file size are also listed (Figure 21). While moving the mouse pointer over the information icon, the previously entered description of the attachment is displayed. You can also add more than one attachment to one dataset.
+</p>
+<br>
+<br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/7350254ed736c3088f82eb1dc39432444fa17714/images_upload/Attachements_4.png?raw=true)*Figure 21: "Attachments"-tab with uploaded file*
+<br>
+<br>
+
+The attachments of a data set can be downloaded by clicking on the respective file name.
+<br>
+
+
+
+
+----------------------
 <p align="justify">
 The following section introduces the metadata schema for the ATTO consortium and gives an over-view of the individual information required.
 In case you want to upload a new dataset to an existing data structure and comprehansive metadata information have thus already been uploaded previously, the respective metadata sheme can be requested from the data management team. You will receive a .xml file, which can be imported via the "Import" button (see Figure 5). You then have to change the appropriate information for your new dataset that differ from previous ones, such as collection dates, layers etc.
@@ -175,7 +204,7 @@ When you completed and validated the metadata form, please click “Save” in o
 <br>
 <br>
 
-### 3.3 Upload primary data
+### 3.3 Upload_primary data
 <p align="justify">
 After the metadata form is saved, you will be automatically directed to the top of the page where you will find a link to the Primary Data and thus the Data Upload Wizard (see Figure 8 & 9). If you want to upload your data as tabular data (.xlsm, .txt, .csv) now, please click on the link. The term "Tabular data" is used for all datasets where the internal structure of the data is "known" to the system. For example, in a data table the header, which defines the columns (i.e. variables) is the structure of the data. Before uploading/importing data to the system the data structure needs to be created by the data management team (see also paragraph 2 - Defining a data structure).
 </p>
@@ -235,7 +264,7 @@ In case you want to upload your primary data at a later point of time and assign
 </p>
 <br>
 
-### 3.4 Import primary data
+### 3.4 Import_primary data
 <p align="justify">
 Using the Import Data Wizard is another possibility to create a dataset including metadata in one workflow. Please click "Import Data" via the “Collect” tab (Figure 1). After you selected a file from your local computer or a prior uploaded file, you have to choose the "ATTO" metadata schema. The title is by default the name of your file, but can be changed in the textbox "Title" (Figure 14).
 </p>
@@ -314,30 +343,7 @@ Click "Next" and you are asked to validate your dataset. In this step, the syste
 <br>
 <br>
 
-### 3.7 Add attachments to datasets
-<p align="justify">
-The Attachments-tab (Figure 20) allows users, who have upload rights to dataset, to attach files such as descriptions as word document, text file, excel file, source code, images, etc. to the respective dataset. Other users can only see or download these attachments.
 
-In order to add attachments to datasets, a brief description of the attachment should first be given (Figure 21). Then you can select a file from the local hard disk by clicking the "Select" button and upload it to the database by clicking the "Push" button (Figure 21).
-</p>
-<br>
-<br>
-
-![](https://github.com/ATTODataPortal/Documents/blob/7350254ed736c3088f82eb1dc39432444fa17714/images_upload/Attachements_3.png?raw=true)*Figure 20: "Attachments"-tab in the dataset view*
-<br>
-<br>
-<p align="justify">
-If a file is successfully added as an attachment, it appears in the overview. Each individual attachment is assigned an ID. The file name, file type and file size are also listed (Figure 21). While moving the mouse pointer over the information icon, the previously entered description of the attachment is displayed. You can also add more than one attachment to one dataset.
-</p>
-<br>
-<br>
-
-![](https://github.com/ATTODataPortal/Documents/blob/7350254ed736c3088f82eb1dc39432444fa17714/images_upload/Attachements_4.png?raw=true)*Figure 21: "Attachments"-tab with uploaded file*
-<br>
-<br>
-
-The attachments of a data set can be downloaded by clicking on the respective file name.
-<br>
 
 ### Appendix
 
