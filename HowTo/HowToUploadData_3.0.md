@@ -79,18 +79,12 @@ Data structures contain all variables, which are part of the dataset to be uploa
 </p>
 <p align="justify">
 In the editing mode of the dataset, it can be created in the drop-down menu “Data Structure” before an upload. Furthermore,  it can be created from an uploaded file. These options should only be used by the data management team. 
-We recommend that you select an existing data structure (Figure 4). Please send a request for a data structure including the header of your dataset with a clear description and the unit of each variable to the data management team (attodbm@bgc-jena.mpg.de).
+We recommend that you select an existing data structure. Please send a request for a data structure including the header of your dataset with a clear description and the unit of each variable to the data management team (attodbm@bgc-jena.mpg.de). After the data management team has created the data structure, you will be informed of its name so that you can select it from the drop-down menu (Figure 4).
 </p>
 <br>
 
-![](https://github.com/ATTODataPortal/Documents/blob/af5a6f273d6b98bf1ba9f35b955d720044bf87c2/images_upload_3.0/Create_11_dataStructure.png?raw=true)*Figure 4: Drop-down menu for selecting respectively generating a data structure.*
+![](https://github.com/ATTODataPortal/Documents/blob/c924719a5f00b9a754f90a941127427d7e14fa46/images_upload_3.0/SelectDataStructure_1.png?raw=true)*Figure 4: Drop-down menu for selecting respectively generating a data structure.*
 <br>
-<br>
-<p align="justify">
-
-</p>
-<br>
-
 <br>
 
 ## 3 Data collection
