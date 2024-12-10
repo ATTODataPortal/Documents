@@ -88,18 +88,17 @@ We recommend that you select an existing data structure. Please send a request f
 
 ### 3.1 Upload primary data
 <p align="justify">
-To create a new dataset, please click on the “Collect” tab and choose “Create Dataset” (Figure 1). You will be directed to an upload wizard, which leads you through the process step by step. When you hover the mouse pointer over the orange “Select” buttons in the wizard (see Figure 4) an information field about the respective option will appear.
+
 </p>
 <p align="justify">
-If you want to upload a new dataset, please select “New Dataset” in the “Dataset” field. In case you want to use an already existing dataset (for example form your time series), you have two options to make a selection. First, you can click on the “Select from table” button and choose the respective dataset. Second, you can click on the text field above the “Select from table” button and choose the preferred dataset from the drop-down menu.
-In the next step you can choose whether to upload a new tabular data or a file. In both cases a new data structure will be created. In case you have been assigned a data structure by the data management team, please use the option "Existing tabular data structure" or "Existing file data structure" and select the appropriate data structure from the drop-down menu. The next step is to define the metadata structure. In our case there is only one predefined one called "ATTO".
+
 </p>
 <br>
 
-![](https://github.com/ATTODataPortal/Documents/blob/747a480ae8070b162e6c014539f101972b7edde7/images_upload/image_Upload_4.png?raw=true)*Figure 4: Overview of Data Collection Wizard*
+![](https://github.com/ATTODataPortal/Documents/blob/70666dd871648a1f987b904bb1a7a23f27495c09/images_upload_3.0/UploadFile_2.png?raw=true)*Figure 5: File upload and Validation menu.*
 <br>
 <p align="justify">
-In order to continue the data creation process please click the “Next” button. You will be directed to the metadata form, which will be explained in the following section.
+
 </p>
 <br>
 
