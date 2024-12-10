@@ -102,6 +102,31 @@ We recommend that you select an existing data structure. Please send a request f
 </p>
 <br>
 
+![](https://github.com/ATTODataPortal/Documents/blob/9a01ff5b448fffd8d55f93958489725e2bc0c424/images_upload_3.0/UploadFile_3.png?raw=true)*Figure 6: Start to modify file reader information.*
+<br>
+
+
+![](https://github.com/ATTODataPortal/Documents/blob/9a01ff5b448fffd8d55f93958489725e2bc0c424/images_upload_3.0/Create_12_dataStructure.png?raw=true)*Figure 7: Modify file reader information.*
+<br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/9a01ff5b448fffd8d55f93958489725e2bc0c424/images_upload_3.0/Create_13_dataStructure.png?raw=true)*Figure 8: Define Variables, units, description and data in the uploaded primary data file.*
+<br>
+
+
+![](https://github.com/ATTODataPortal/Documents/blob/9a01ff5b448fffd8d55f93958489725e2bc0c424/images_upload_3.0/Create_17_dataStructure.png?raw=true)*Figure 9: Finished validation of file upload process.*
+<br>
+
+
+![](https://github.com/ATTODataPortal/Documents/blob/9a01ff5b448fffd8d55f93958489725e2bc0c424/images_upload_3.0/Create_18_dataUpload.png?raw=true)*Figure 10: Submission of primary data.*
+<br>
+
+
+![](https://github.com/ATTODataPortal/Documents/blob/9a01ff5b448fffd8d55f93958489725e2bc0c424/images_upload_3.0/Create_19_dataUpload.png?raw=true)*Figure 11: Confirmation window of the data import.*
+<br>
+
+
+<br>
+
 
 ### 3.2 Fill out metadata
 <p align="justify">
