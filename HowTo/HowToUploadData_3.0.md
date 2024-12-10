@@ -16,8 +16,7 @@ Contact ATTO Data Management Team: <attodbm@bgc-jena.mpg.de>
 
 [3. Upload data](#3-upload-data)
 - [3.1 Upload primary data](#33-upload-primary-data)
-- [3.2 Import primary data](#34-import-primary-data)
-- [3.3 Add attachments to datasets](#37-add-attachments-to-datasets)
+- [3.2 Add attachments to datasets](#37-add-attachments-to-datasets)
 
 
 [4. Metadata form](#3-metadata-form)
@@ -128,7 +127,7 @@ We recommend that you select an existing data structure. Please send a request f
 <br>
 
 
-### 3.2 Fill out metadata
+### 3.2 Add attachments to datasets
 <p align="justify">
 The following section introduces the metadata schema for the ATTO consortium and gives an over-view of the individual information required.
 In case you want to upload a new dataset to an existing data structure and comprehansive metadata information have thus already been uploaded previously, the respective metadata sheme can be requested from the data management team. You will receive a .xml file, which can be imported via the "Import" button (see Figure 5). You then have to change the appropriate information for your new dataset that differ from previous ones, such as collection dates, layers etc.
