@@ -137,7 +137,7 @@ In order to add attachments to datasets, a brief description of the attachment s
 <br>
 <br>
 
-![](https://github.com/ATTODataPortal/Documents/blob/7350254ed736c3088f82eb1dc39432444fa17714/images_upload/Attachements_3.png?raw=true)*Figure 20: "Attachments"-tab in the dataset view*
+![](https://github.com/ATTODataPortal/Documents/blob/2eb7ae267e3fe94a09b613c033675bca1026f225/images_upload_3.0/Attachments_1.png?raw=true)*Figure 20: "Attachments"-tab in the dataset view*
 <br>
 <br>
 <p align="justify">
