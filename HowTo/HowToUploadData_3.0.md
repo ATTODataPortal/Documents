@@ -87,7 +87,7 @@ We recommend that you select an existing data structure. Please send a request f
 
 ### 3.1 Upload primary data
 <p align="justify">
-
+After selecting the respective data structure for the data set to be uploaded, you can import the primary data from a .csv, .xls, .txt or other data types in the next step. To do this, please use the “File Upload” section on the general editing page. Here, the file can either be selected from a directory by clicking on into the field or simply dragged and dropped into the field (Figure 5).
 </p>
 <p align="justify">
 
