@@ -96,7 +96,6 @@ After selecting the respective data structure for the data set to be uploaded, y
 <p align="justify">
 Figure 5 also shows the validation section. The green taps show the steps successfully completed for the upload. The taps highlighted in red show what still needs to be processed.
 </p>
-<br>
 <p align="justify">
 In this example, the assignment of the file reader information such as the separator between the respective data columns, the decimal separator, the definition of text in the file and the assignment of where variables, units and data can be found in the file is still missing. To activate this, click on “File Reader Information” in the “File Upload” section. The corresponding file for which the assignments are to be made can then be selected. This is the file that was previously added using drag'n'drop, for example (Figure 6).
 </p>
@@ -105,6 +104,10 @@ In this example, the assignment of the file reader information such as the separ
 ![](https://github.com/ATTODataPortal/Documents/blob/9a01ff5b448fffd8d55f93958489725e2bc0c424/images_upload_3.0/UploadFile_3.png?raw=true)*Figure 6: Start to modify file reader information.*
 <br>
 
+<p align="justify">
+
+</p>
+<br>
 
 ![](https://github.com/ATTODataPortal/Documents/blob/9a01ff5b448fffd8d55f93958489725e2bc0c424/images_upload_3.0/Create_12_dataStructure.png?raw=true)*Figure 7: Modify file reader information.*
 <br>
