@@ -87,7 +87,7 @@ We recommend that you select an existing data structure. Please send a request f
 
 ### 3.1 Upload primary data
 <p align="justify">
-After selecting the respective data structure for the data set to be uploaded, you can import the primary data from a .csv, .xls, .txt or other data types in the next step. To do this, please use the “File Upload” section on the general editing page. Here, the file can either be selected from a directory by clicking on into the field or simply dragged and dropped into the field (Figure 5).
+After selecting the respective data structure for the data set to be uploaded, you can import the primary data from a .csv, .xls, .txt or other data types in the next step. To do this, please use the “File Upload” section on the general editing page. Here, the file can either be selected from a directory by clicking into the field or simply dragg and dropp the respective file into the field (Figure 5).
 </p>
 <br>
 
@@ -105,16 +105,29 @@ In this example, the assignment of the file reader information such as the separ
 <br>
 
 <p align="justify">
-
+The interface opens where the file reader information can be edited (Figure 7). In the top bar, the column separator, the decimal separator, the text marker and the encoding can be changed. If one of the respective definitions is changed, you can see what has changed in the primary data display below. Normally, the system recognizes the respective definitions automatically.
 </p>
 <br>
 
 ![](https://github.com/ATTODataPortal/Documents/blob/9a01ff5b448fffd8d55f93958489725e2bc0c424/images_upload_3.0/Create_12_dataStructure.png?raw=true)*Figure 7: Modify file reader information.*
 <br>
 
+<p align="justify">
+In the second bar from the top you can see the color coding of the individual elements that the primary data should contain: Variables, Unit, Description of variables, Missing values and Data (Figure 8). The next step is to define the respective lines in the primary data. In our example, the variables are defined in the first row in the table below. To do this, click on the ">" sign in the left-hand column and the row will be highlighted in dark gray. Then click on the red button with "Variable" at the top and the first row in the table will turn red. Do the same for the rows in which the units and the variable description can be found. To define the values of the data, all you need to do is select the first row of values and confirm by clicking on the green "Data" button. All other lines with data values are automatically recognized by the system.
+The missing values can still be defined in the bar. Some use "na" or "NA" or "-9999". Please enter this here accordingly.
+<br>
+<br>
+Once all elements have been defined, they can be saved by clicking on the green save button in the right-hand area above the data table. You will then be redirected back to the editing page.
+</p>
+<br>
+
 ![](https://github.com/ATTODataPortal/Documents/blob/9a01ff5b448fffd8d55f93958489725e2bc0c424/images_upload_3.0/Create_13_dataStructure.png?raw=true)*Figure 8: Define Variables, units, description and data in the uploaded primary data file.*
 <br>
 
+<p align="justify">
+
+</p>
+<br>
 
 ![](https://github.com/ATTODataPortal/Documents/blob/9a01ff5b448fffd8d55f93958489725e2bc0c424/images_upload_3.0/Create_17_dataStructure.png?raw=true)*Figure 9: Finished validation of file upload process.*
 <br>
