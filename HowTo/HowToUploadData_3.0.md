@@ -125,11 +125,16 @@ Once all elements have been defined, they can be saved by clicking on the green 
 <br>
 
 <p align="justify">
-
+On the editing page in the “Validation” area, the taps should now all be green (Figure 9). If this is not the case, you will need to correct this at the appropriate point. 
 </p>
 <br>
 
 ![](https://github.com/ATTODataPortal/Documents/blob/9a01ff5b448fffd8d55f93958489725e2bc0c424/images_upload_3.0/Create_17_dataStructure.png?raw=true)*Figure 9: Finished validation of file upload process.*
+<br>
+
+<p align="justify">
+ If everything is now green, the data record can be finally uploaded in the “Submit” area using the green Submit button (Figur 9). You will then be asked again for confirmation, which can be done by clicking on “Confirm” (Figure 10). 
+</p>
 <br>
 
 
