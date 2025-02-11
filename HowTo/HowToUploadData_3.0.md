@@ -152,27 +152,28 @@ On the editing page in the “Validation” area, the taps should now all be gre
 ### 3.2 Add attachments to datasets
 
 <p align="justify">
-The Attachments-tab (Figure 20) allows users, who have upload rights to dataset, to attach files such as descriptions as word document, text file, excel file, source code, images, etc. to the respective dataset. Other users can only see or download these attachments.
-
-In order to add attachments to datasets, a brief description of the attachment should first be given (Figure 21). Then you can select a file from the local hard disk by clicking the "Select" button and upload it to the database by clicking the "Push" button (Figure 21).
+In certain cases it is helpful and advisable to add additional information (descriptions as word document, text file, excel file) or a source code or images to the respective data set. This can be done on the editing page in the lower section in the “Attachments” area (Figure 12). The respective file or several files can be attached by clicking in the field or via drag'n'drop. Corresponding instructions can also be found in the “Attachments” field.
 </p>
 <br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/510d7e5335b1eadb96fd0277d907db073552a89b/images_upload_3.0/Attachments_1.png?raw=true)*Figure 12: "Attachments"-section in the general editing page of a dataset* 
 <br>
 
-![](https://github.com/ATTODataPortal/Documents/blob/510d7e5335b1eadb96fd0277d907db073552a89b/images_upload_3.0/Attachments_1.png?raw=true)*Figure 20: "Attachments"-tab in the dataset view*
-<br>
-<br>
 <p align="justify">
-If a file is successfully added as an attachment, it appears in the overview. Each individual attachment is assigned an ID. The file name, file type and file size are also listed (Figure 21). While moving the mouse pointer over the information icon, the previously entered description of the attachment is displayed. You can also add more than one attachment to one dataset.
+Once the file has been added, the corresponding file name is displayed in the left-hand area. To the right of this is a free text field to add a description of the respective attachment (Figure 13). If a file is successfully added as an attachment, it appears in the overview. Each individual attachment is assigned an ID. The file name, file type and file size are also listed (Figure 14). While moving the mouse pointer over the information icon, the previously entered description of the attachment is displayed. You can also add more than one attachment to one dataset.
 </p>
 <br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/510d7e5335b1eadb96fd0277d907db073552a89b/images_upload_3.0/Attachments_3.png?raw=true)*Figure 13: "Attachments"-tab with uploaded file*
 <br>
 
-![](https://github.com/ATTODataPortal/Documents/blob/7350254ed736c3088f82eb1dc39432444fa17714/images_upload/Attachements_4.png?raw=true)*Figure 21: "Attachments"-tab with uploaded file*
-<br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/510d7e5335b1eadb96fd0277d907db073552a89b/images_upload_3.0/Attachments_4.png?raw=true)*Figure 14: "Attachments"-section with description field*
 <br>
 
+<p align="justify">
 The attachments of a data set can be downloaded by clicking on the respective file name.
+ </p>
 <br>
 
 
