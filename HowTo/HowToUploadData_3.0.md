@@ -18,11 +18,7 @@ Contact ATTO Data Management Team: <attodbm@bgc-jena.mpg.de>
 - [3.1 Upload primary data](#33-upload-primary-data)
 - [3.2 Add attachments to datasets](#37-add-attachments-to-datasets)
 
-
 [4. Metadata form](#4-metadata-form)
-
-- [4.1 Use help informations](#41-use-help-informations)
-- [4.2 Validate metadata](#42-validate-metadata)
 
 [Appendix](#appendix)
 <br>
