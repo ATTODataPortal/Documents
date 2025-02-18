@@ -181,55 +181,64 @@ The attachments of a data set can be downloaded by clicking on the respective fi
 ## 4 Metadata form
 
 <p align="justify">
-The following section introduces the metadata schema for the ATTO consortium and gives an over-view of the individual information required.
-In case you want to upload a new dataset to an existing data structure and comprehansive metadata information have thus already been uploaded previously, the respective metadata sheme can be requested from the data management team. You will receive a .xml file, which can be imported via the "Import" button (see Figure 5). You then have to change the appropriate information for your new dataset that differ from previous ones, such as collection dates, layers etc.
+The following section introduces the updated metadata schema for datasets following the DataCite schema.
+
+To access the metadata form, click on the small orange pencil icon right next to “Metadata” at the top of the general editing page (Figure 15).
 </p>
 <br>
 
-![](https://github.com/ATTODataPortal/Documents/blob/4cf133808ed0268b485c39ec934623c1d4503641/images_upload/image_Upload_5.png?raw=true)*Figure 5: Overview of metadata form*
+![](https://github.com/ATTODataPortal/Documents/blob/b4b4077fe35e63e7eddba7531e37971b7817da4d/images_upload_3.0/Create_3.png?raw=true)*Figure 15: General editing page directing to the metadata form*
 <br>
 <br>
 
-The metadata structure contains four main sections:
+The metadata structure contains seven main sections (Figure 16):
 
-- Dataset Level Metadata: Basic information on the data like title, abstract, owner, methods etc.
-- Environmental Level Metadata: Detailed georeferenced information on the location, where the data were collected.
-- Published In: DOI if dataset is already published in a data repository or in context of a scientific publication.
-- Project: Information of the project, in which context the dataset was collected, including funding for the project.
+- Identification: Basic information on the data like citation, title, abstract, identifier URL etc.
+- Data Accessibility: Information if the dataset was used for student theses and the type of license under which the dataset is published.
+- Funding: Information about the funder of the project and the respective award number and title.
+- Creators: Information about the contact person and the authors of the dataset. The contact persons is the person with knowledge of how to access, troubleshoot, or otherwise field issues related to the resource. Authors are the main researchers involved in producing the data, or the authors of the dataset, in priority order.
+- Temporal Coverage: Information about the start and end date of the respective data collection.
+- Geographical Coverage: Spatial region or named place where the data were gathered.
+Methods: Information about field sampling and data preparation as well as identifiers of other related resources, such as articles and other datasets.
+</p>
+<br>
+
+![](https://github.com/ATTODataPortal/Documents/blob/b4b4077fe35e63e7eddba7531e37971b7817da4d/images_upload_3.0/Create_22_metadata.png?raw=true)*Figure 16: Metadata form with seven main sections*
 
 <p align="justify">
-Some fields are a free-text field, which have to be filled in by the data creator. Others have, drop-down menus and an autocomplete function that helps to fill in the form swiftly.
+Some fields are a free-text field, which have to be filled in by the data creator. Others have drop-down menus or an autocomplete function which helps to fill in the form swiftly.
 </p>
 <br>
 
-> `Note:` Completely filled metadata are essential for finding datasets within the ATTO data portal and allows an easy publishing process through the Max Planck Digital Library (MPDL).
+> `Note:` Completely filled metadata are essential for finding datasets within the ATTO data portal and allows an easy publishing process through the Max Planck Digital Library (MPDL) and Datacite.
 <br>
 <br>
+
 <p align="justify">
-Table 1 in the Appendix gives an overview and explanation of each variable of the metadata form. You also get this information by hovering the mouse pointer over the respective variable name left side of the text boxes and the green header of the subsections. All fields marked with a red asterisks * are mandatory for a valid metadata form.
-
-After you complete the form, you can validate (see Figure 6) the entries and the system will give you further information in case any entries are wrong or whether more entries are required.
+Table 1 in the Appendix gives an overview and explanation of each variable of the metadata form. You also get this information by the information icon to the right of the respective fields. There is also an information icon at the top right of the metadata form. When this is clicked, the information for each field is displayed (Figure 16 & 17). All fields marked with a red asterisks * are mandatory for a valid metadata form.
 </p>
 <br>
 
-![](https://github.com/ATTODataPortal/Documents/blob/ea686fcf7c46edb7022a6be3b4071678f0db6214/images_upload/image_Upload_6.png?raw=true)*Figure 6: Bottom of Metadata form with "Validate" and “Save” button*  
+![](https://github.com/ATTODataPortal/Documents/blob/b4b4077fe35e63e7eddba7531e37971b7817da4d/images_upload_3.0/Create_8_metadata.png?raw=true)*Figure 17: Information text for each metadata field*  
 <br>
+
 <p align="justify">
-When you completed and validated the metadata form, please click “Save” in order to finish the creation of the dataset. If there are metadata entries missing, the window shown in Figure 7 will pop up. In this case it is recommended that you click on “Cancel” to fill in the missing. However, while clicking on the “OK” button, the metadata form will be saved and you have the possibility to edit the form at a later point of time – even after primary data are already uploaded.
+After you complete the form, you can validate (see Figure 18) the entries and the system will give you further information in case any entries are wrong or whether more entries are required (Figure 19).
 </p>
 <br>
 
-> `Note:` After a dataset is published with an assigned DOI, do not change any part of the dataset. Please contact the data management team (attodbm@mpi-mail.mpg.de) for help.
+![](https://github.com/ATTODataPortal/Documents/blob/b4b4077fe35e63e7eddba7531e37971b7817da4d/images_upload_3.0/Create_5_metadata.png?raw=true)*Figure 18: Validation button at the bottom left of the metadata form*
 <br>
 <br>
+![](https://github.com/ATTODataPortal/Documents/blob/b4b4077fe35e63e7eddba7531e37971b7817da4d/images_upload_3.0/Create_6_metadata.png?raw=true)*Figure 19: Validation information if metadata are NOT valid*
 
-![](https://github.com/ATTODataPortal/Documents/blob/992edd46cf0c43b59363d0d9b9c3540b0e03acd2/images_upload/image_Upload_7.png?raw=true)*Figure 7: Warning if metadata information is missing*
+When you completed and validated the metadata form, please click “Save” (bottom right of the metadata form, see Figure 18) in order to save the entries. If there are metadata entries missing, the window shown in Figure 19 will pop up. In this case it is recommended that you click on “Cancel” to fill in the missing. However, while clicking on the “OK” button, the metadata form will be saved and you have the possibility to edit the form at a later point of time – even after primary data are already uploaded.
+</p>
+<br>
+
+> `Note:` After a dataset is published with an assigned DOI, do not change any part of the dataset. Please contact the data management team (attodbm@bgc-jena.mpg.de) for help.
 <br>
 <br>
-
-
-
-
 
 
 ### Appendix
