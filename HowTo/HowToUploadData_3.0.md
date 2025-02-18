@@ -251,95 +251,74 @@ Table 1: Overview of metadata variables. These information are also available by
 
 | Variable name                           | Description                          | Type of text box                          |
 | --------------------------------------- |------------------------------------| -----------------------------------------|
-| Dataset Level Metadata                  |                                      |                                           |
-| Title*                                  | Title of the dataset to be uploaded to the ATTO data portal.      |   Free text entry |
-| Abstract* | A brief overview of the resource to be uploaded to the ATTO data portal. The abstract should include basic information that summarizes the dataset. Example: Dataset provides information about water temperature collected in Lake Candia.      |    Free text entry |
-| Data Of Phd Thesis* | Was the dataset collected as part of a doctoral thesis? If so, data users are obliged to consider the special regulations in the data policy regarding PhD data. | Checkbox |
-| Keywords | Provide a set of related keywords describing the content of the dataset. Please separate the keywords with commas (e.g. flux, CO2, tower). | Free text entry |
-| Identifier Type | **Applies only for data sets, which will be published via MPDL.** A persistent identifier that identifies a dataset, assigned by the MPDL for this dataset. Currently, only DOI is possible. | Dropdown menu |
-| Identifier Value | **Applies only for data sets, which will be published via MPDL.** Please insert the DOI assigned by the MPDL. e.g. 10.17871/atto_xxxx | Free text entry |
-| Publisher | **Applies only for datasets, which will be published via MPDL.** The name of the entity that holds, archives, publishes the dataset. In the case of datasets, "publish" is understood to mean making the data available to the community of researchers. **In the case of the ATTO project, Publisher will be the Max Planck Institute for Biogeochemistry, Jena due to the requirements of the MPDL.** | Dropdown menu |
-| Contributor | **Applies only for datasets, which will be published via MPDL.** The institution responsible for collecting, managing, distributing, publishing or otherwise contributing to the development of the resource. **Contributor will be the Instituto Nacional de Pesquisas da Amazônia, Manaus due to the requirements of the MPDL.** | Dropdown menu |
-| Publication Year | **Applies only for datasets, which will be published via MPDL.** Year when the data is made publicly available. If an embargo period has been in effect, use the date when the embargo period ends. Format: **YYYY** | Free text entry |
-| Data Classification | Principal classification of the data to be uploaded to the ATTO data portal. E.g. Observational, Experimental, Simulation, Derived, Metadata, Other | Dropdown menu |
-| Resource Type | The type of the dataset to be uploaded to the ATTO data portal. E.g. Audiovisual, Collection | Dropdown menu |
-| Format | Technical format of the original resource. Use file extension or MIME type where possible. E.g. jpg, png?raw=true, xlsx, csv, dat etc. | Free text entry |
-| Version | Version number of the resource/dataset. If the primary resource has changed the version number increases. Register a new identifier for a major version change. Individual stewards need to determine which are major vs. minor versions. | Free text entry |
-| Data Creator(s)* | The main researchers involved working on the data, uploading the data to the data portal or the authors of the publication in priority order. May be a corporate/ institutional or personal name. | One or more persons can be selected via the + button on the right side. |
-| Data Owner(s)* | Person(s) who own this dataset. Mostly these are the PIs of the project. | One or more persons can be selected via the + button on the right side. |
-| Data Contributor(s)* | Person(s) contributed to the data or/and helped to collect the data. | One or more persons can be selected via the + button on the right side. |
-| Full name* | Fullname of the Data Creator, Data Onwer and Data Contributor respectively (e.g. John Doe). Name format: Given Family | Free text entry |
-| Email* | Email of the Data Creator, Data Onwer and Data Contributor respectively (e.g. john@doe.com). | Free text entry |
-| Institute* | Affiliation of the Data Creator, Data Onwer and Data Contributor respectively (e.g. Max Planck Institute for Biogeochemistry). | Free text entry |
-| Street | Street of the respective contact address. | Free text entry |
-| Zipcode | Postal code of the contact address. | Free text entry |
-| City | City of the contact address. | Free text entry |
-| Country | Country of the contact address. | Dropdown menu |
-| Dataset Method Specification* | Provides a documentation of the procedures followed to produce any object in the dataset to be uploaded to the ATTO data portal. These shall include information about procedure steps, software used within individual steps and source data. | Free text entry |
-| Dataset Sampling Specification* | Allows for a text-based/human readable description of the actual sampling procedures used within the dataset collection. This element shall include information about dataset lineage. | Free text entry |
-| Dataset Sampling Equipment Info* | Provides information about any instruments used in the data collection or quality control and quality assurance. The description should include vendor, model number, optional equipment, etc. | Free text entry |
-| Data Processing Level* | Processing level of the data to be uploaded to the ATTO data portal. E.g. Level 1B for unit processed data according to the NASA data processing level standards or Level 2A for processed and aggregated data according to the AmeriFlux. | Free text entry |
-| Data Processing Level Standards* | Processing level standards used, e.g. NASA or AmeriFlux and European Fluxes networks. | Free text entry |
-|Data Collection Layer* | Information if the data were collected above ground, below ground or in water. | Dropdown menu |
-| Layer Start | Start height/depth of layer in cm. | Free text entry |
+| Identification*                  |                                      |                                           |
+| Citation string                                  | Full citation string of the dataset. To be filled by data manager.      |   Free text entry |
+| Title*                                  | Title of the dataset well describing the data (what, where, when). E.g.: Atmospheric boundary layer height dataset (2014-2020) measured at the ATTO site      | Free text entry |
+| Abstract* | A brief overview of the resource to be uploaded to the ATTO data portal. It should include basic information that summarizes the dataset, including background, kind of data collected, study site and timeframe.      |    Free text entry |
+| Identifier URL | **Applies only for data sets, which will be published via MPDL/DataCite.** The uniform resource locator of the dataset. To be filled by data manager. e.g. 10.17871/atto_xxxx | Free text entry |
+| Identifier type | **Applies only for data sets, which will be published via MPDL/DataCite.** A registered DOI for public datasets or a URL for internal datasets. To be filled by data manager. | Free text entry |
+| Publisher | The name of the entity that holds, archives, publishes, prints, distributes, releases, issues, or produces the resource. **In the case of the ATTO project, Publisher will be the Max Planck Institute for Biogeochemistry, Jena due to the requirements of the MPDL/DataCite.** | Automatically filled in field |
+| Publisher identifier | Uniquely identifies the publisher, according to Research Organization Registry. | Automatically filled in field |
+| Contributor | The institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource. **Contributor will be the Instituto Nacional de Pesquisas da Amazônia, Manaus due to the requirements of the MPDL/DataCite.** | Automatically filled in field |
+| Contributor type | The type of contributor of the resource. | Automatically filled in field |
+| Contributor identifier | Uniquely identifies an individual or legal entity, according to Research Organization Registry (ROR). | Automatically filled in field |
+| Publication Year | **Applies only for datasets, which will be published via MPDL/DataCite.** The year when the data was or will be made publicly available. Format: **YYYY** | Free text entry |
+| Resource Type | The general type of the resource. E.g. Audiovisual, Collection, Dataset etc. | Dropdown menu |
+| Version | The version number of the resource. To be filled by data manager. | Free text entry |
+| Keywords | Please provide at least 3 keywords. Use a new field for each keyword, which can be added by clicking on the plus sign (E.g., flux, CO2, tower). | Free text entry |
+| Data Accessibility*                 |                                      |                                           |
+| Data are part of student thesis* | Data used for student theses may remain under embargo for up to 6 months after thesis defense. Please refer to ATTO Data Policy (https://www.attodata.org/ato/home/Download?fileName=ATTO_DATA%20POLICY_20180917.pdf). | Dropdown menu |
+| License | ATTO Data are published under licence CC BY 4.0, which allows datasets to be shared and adapted since appropriate credit is given and changes are indicated. Please check license URI for more details. | Automatically filled in field |
+| License URI | The uniform resource identifier of the license. | Automatically filled in field |
+| Funding*                 |                                      |                                           |
+| Funder* | Funder of the project, please use standard name given by the Research Organization Registry (ror.org). E.g.: Federal Ministry of Education and Research; Fundação de Amparo à Pesquisa do Estado de São Paulo. | Free text entry |
+| Funder identifier* | URI of the funder as given by the Research Organization Registry (ror.org). E.g.: https://ror.org/04pz7b180, https://ror.org/02ddkpn78 | Free text entry |
+| Award number | The process number assigned by the funder to a sponsored grant. | Free text entry |
+| Award title | The title of the funded project. | Free text entry |
+| Creators* | | |
+| Contact Person* | Person with knowledge of how to access, troubleshoot, or otherwise field issues related to the resource. | |
+| Fullname* | Fullname of the contact person/author. | Free text entry/Autocomplete list |
+| ORCID* | ORCID is a free, unique, persistent identifier (PID) for individuals to use as they engage in research, scholarship, and innovation activities. E.g.: https://orcid.org/0000-0001-5727-2427 | Free text entry/Autocomplete list |
+| Affiliation* | Use the standard name of your affiliation as given by the Research Organization Registry (ror.org). E.g.: Max Planck Institute for Biogeochemistry; Instituto Nacional de Pesquisas da Amazônia. | Free text entry/Autocomplete list |
+| Affiliation ROR* | Uniquely identifies the research institution, according to the Research Organization Registry (ror.org). E.g.: https://ror.org/051yxp643; https://ror.org/01xe86309. | Free text entry/Autocomplete list |
+| Further Affiliation | | |
+| Affiliation | Use the standard name of your affiliation as given by the Research Organization Registry (ror.org). E.g.: Max Planck Institute for Biogeochemistry; Instituto Nacional de Pesquisas da Amazônia. | Free text entry |
+| Affiliation ROR | Uniquely identifies the research institution, according to the Research Organization Registry (ror.org). E.g.: https://ror.org/051yxp643; https://ror.org/01xe86309. | Free text entry |
+| Author* | The main researchers involved in producing the data, or the authors of the dataset, in priority order. | |
+| Fullname* | Fullname of the contact person/author. | Free text entry/Autocomplete list |
+| ORCID* | ORCID is a free, unique, persistent identifier (PID) for individuals to use as they engage in research, scholarship, and innovation activities. E.g.: https://orcid.org/0000-0001-5727-2427 | Free text entry/Autocomplete list |
+| Affiliation* | Use the standard name of your affiliation as given by the Research Organization Registry (ror.org). E.g.: Max Planck Institute for Biogeochemistry; Instituto Nacional de Pesquisas da Amazônia. | Free text entry/Autocomplete list |
+| Affiliation ROR* | Uniquely identifies the research institution, according to the Research Organization Registry (ror.org). E.g.: https://ror.org/051yxp643; https://ror.org/01xe86309. | Free text entry/Autocomplete list |
+| Further Affiliation | | |
+| Affiliation | Use the standard name of your affiliation as given by the Research Organization Registry (ror.org). E.g.: Max Planck Institute for Biogeochemistry; Instituto Nacional de Pesquisas da Amazônia. | Free text entry |
+| Affiliation ROR | Uniquely identifies the research institution, according to the Research Organization Registry (ror.org). E.g.: https://ror.org/051yxp643; https://ror.org/01xe86309. | Free text entry |
+| Temporal Coverage* | | |
+| Start Date* | Start date of data collection. | Calendar |
+| End Date | End date of data collection. Only fill if end date is known. | Calendar |
+| Temporal Resolution | The difference in time between two successive samples. E.g.: 1 min, monthly. | Free text entry |
+| Geographical Coverage* | | |
+| Location* | Spatial region or named place where the data were gathered. | Dropdown menu |
+| Data collection Layer* | Please inform whether data are collected below or aboveground. | Dropdown menu |
+| Layer Start | Start height/depth of layer in cm | Free text entry |
 | Layer End | End height/depth of layer in cm | Free text entry |
-| Start Date* | Start date of the data/time series. | Calendar |
-| End Date | End date of the data/time series. | Calendar |
-| Temporal Resolution | Information about the temporal resolution of the data/time series e.g. 1 min, monthly. | Free text entry |
-| Number Of Parameters | Information about the number of parameters in the dataset. | Numbers |
-| Location* | Information about the location at the ATTO site where measurements were taken. Please use the common name, which is also given in the general map provided by the coordinators (e.g. Tall Tower, Walk-Up Tower, Triangular Mast, River, Tree(s), Soil, Other). | Dropdown menu |
-| Location Other | In case "Other" is selected in the field "Location", please enter here the name and/or coordinates of the location (e.g. Tall Tower (S 02 08.756 W 059 00.335)). | Free text entry |
-| Abbreviation(s)* | Abbreviations used in the dataset to be uploaded to the ATTO data portal (e.g. m for meters, t for tonnes). | Free text entry; More than one variable can be selected via the + button on the right side. |
-| Description | Long-form of the abbreviations used in the dataset to be uploaded to the ATTO data portal (e.g. meters, tonnes). | Free text entry; More than one variable can be selected via the + button on the right side. |
-| Data Quality* | Quality assurance - has the dataset undergone any quality checks? This is important for scientists interested in using the data for further analysis. | Multiple fields |
-| Check Performed* | Has the dataset undergone any quality checks? If yes, please click checkbox. | Checkbox |
-| Issues* | Please mention the inconsistencies or errors present in the dataset to be uploaded to the ATTO data portal.| Free text entry |
-| Curation Info | Information about data curation. | Free text entry |
-| Plot Info | In case the dataset is based on a plot experiment, please insert additional information here. | Checkbox on the right side in the header. |
-| Total Plots | Total number of plots the dataset is based on. | Numbers |
-| Plot(s) * |||
-| Plot Size | Plotsize in sqm. | Free text entry |
-| Number of Plots | Number of plots of particular size on which dataset is based. | Numbers |
-| Sub Plots | In case the experiment contains subplots, please insert additional information here. | Checkbox on the right side in the header. |
-| Subplot Size | Subplotsize in sqm. | Free text entry |
-| Number of Subplots | Number of subplots of particular size on which dataset is based. | Numbers |
-| Software* | Information on the software used for dataset creation, quality check and assurance.||
-| Application(s) Name* | Name of the software used for dataset creation, quality check and assurance. | Free text entry; More than one variable can be selected via the + button on the right side. |
-| Version* | If applicable, version of the software. | Free text entry |
-| Minor | An optional minor version number (e.g. ‘2’ in 1.2) | Free text entry |
-| Modifier | Unconstrained text specifying status & optional number, e.g. ‘beta’, ‘alpha’, ‘internal’. If missing, release status is assumed. | Free text entry |
-| Date Issued | Date of software version release. | Calendar |
-| Availability* |||
-| Company Name | Name of the Software developer. | Free text entry |
+| Other location | Please provide location name if not found in the location list | Free text entry |
+| Latitude | Latitude of "Other location" in decimals. | Free text entry |
+| Longitude | Longitude of "Other location" in decimals. | Free text entry |
+| Coordinate reference system | Please provide the coordinate reference system in which geographical coordinates of "Other" location" were taken. | Dropdown menu |
+| Methods | |
+| Field data collection* | Please provide a description of the field sampling procedures used for data collection. The content provided here would be similar to a description of sampling procedures found in the methods section of a journal article. | Free text entry |
+| Data preparation and processing | Please describe procedures for further preparation and /or processing of samples before analysis. | Free text entry |
+| Related resources | | |
+| Related resource | Please provide identifiers of other related resources, such as articles and other datasets | Free text entry |
+| Software | Information on the software used for dataset creation, quality check and assurance. | |
+| Application | | |
+| Name | Name of the software used for dataset creation, quality check and assurance. | Free text entry |
+| Version | The version number of the resource. To be filled by data manager. | Free text entry |
+| Availability | | |
+| Company name | Name of the Software developer. | Free text entry |
 | URL | URL of the Software developer. | Free text entry |
-| Additional Info || Checkbox on the right side in the header. |
-| Related Dataset | Provide information if any additional related datasets where used to create this dataset, if applicable. | Free text entry |
-| Dataset Level Additional Metadata | Provide additional Metadata for the dataset when required and not listed above. | Free text entry |
-| Environmental Level Metadata |||
-| Spatial Coverage* | Provide information on the spatial coverage of the dataset to be uploaded to the ATTO data portal, e.g. Local; Regional; National; Continental; Global. | Dropdown menu |
-| Georeference Source | Source used for georeferencing such as gazetter, online resource url and name, gps type etc. | Free text entry |
-| Georeference Remarks | Remarks related to georeferencing. | Free text entry |
-| GeoLocation(s)* ||More than one variable can be selected via the + button on the right side.|
-| Geo Location Name* | Provide detailed information about the location at the ATTO site where measurements were taken. | Free text entry |
-| Latitude* | Latitude of the location in decimals. | Free text entry |
-| Longitude* | Longitude of the location in decimals. | Free text entry |
-| Coordinate Reference System* | WGS 84; UTM Zone 38 North ETRS89 etc. | Dropdown menu |
-| Precision | How precise is the location Lat/Long reading? | Free text entry |
-| Altitude | Altitude of the location in metres. | Free text entry |
-| Depth | If aquatic then depth of the location. | Free text entry |
-| Slope | Angle of the slope. | Free text entry |
-| Aspect | Direction of the slope. | Dropdown menu |
-| Habitat | Habitat info of the location. | Free text entry |
-| Remarks || Checkbox on the right side in the header. |
-| Environmental Level Additional Metadata | Additional environmental metadata that you think is not covered in this schema. | Free text entry |
-| Published In* |||
-| DOI | If data are already published in a repository or in the context of a paper, please insert here the respective DOI. e.g. 10.17871/atto_xxxx | Free text entry; More than one variable can be selected via the + button on the right side. |
-| Project* |||
-| Project Title | Name of the project for which the dataset is collected. A project can have many datasets with different dataset titles. | Free text entry |
-| Funder(s)* | Information about the funder(s) of the Project e.g. BMBF, INPA. | More than one variable can be selected via the + button on the right side. |
-| Funder Identifier | Uniquely identifies a funding entity, according to various types. | Free text entry |
-| Award Number | The code assigned by the funder to a sponsored award (grant). | Free text entry |
-| Award Title | The human readable title of the award (grant). | Free text entry |
+| Additional Information| | |
+| Remarks | Add comments or notes about the dataset. | Free text entry |
 ||||
 
 > `Note:` The order of the metadata variables in this table are according to the order in the metadata form on the ATTO data portal.
