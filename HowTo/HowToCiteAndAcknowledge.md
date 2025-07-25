@@ -4,7 +4,7 @@
 
 Authors: Marcus Guderle
 
-Contact ATTO Data Management Team: <attodbm@mpi-mail.mpg.de>
+Contact ATTO Data Management Team: <attodbm@bgc-jena.mpg.de>
 
 
 ## Table of content
