@@ -38,7 +38,7 @@ In accordance with DataCite requirements, we ask to cite a dataset as follows.
 
 **Example for internal data:**
 <p align="justify">
-Barbosa, C., Taylor, P., Sebben, B., & Godoi, R. (2022). Giant Bioaerosol Particles over the rainforest (2015-2019) (Version 330.9.1354) [Data set]. Max Planck Institute for Biogeochemistry. https://www.attodata.org/. Dataset ID = 330.9.1354 
+Barbosa, C., Taylor, P., Sebben, B., & Godoi, R. (2022). Giant Bioaerosol Particles over the rainforest (2015-2019) (Version 330.9.1354) [Data set]. Max Planck Institute for Biogeochemistry. https://www.attodata.org/ddm/data/Showdata/330. Dataset ID = 330.9.1354 
 </p>
 <br>
 
